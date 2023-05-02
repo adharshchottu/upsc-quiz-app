@@ -46,7 +46,8 @@ const Options = (option: string, handleChange: handleChangeType, handleOptionCha
 const Quiz: React.FC<Props> = ({ data }) => {
     const [optionChecked, setOptionChecked] = useState(false);
     const [answerChecked, setAnswerChecked] = useState(false);
-    const [quizData, setQuizData] = useState(Quizgenerator(data));
+    const [quizData, setQuizData] = useState(Quizgenerator(data,0));
+    const [quizCount, setQuizCount] = useState(0);
     const [selectedOption, setSelectedOption] = useState<string | null>(null);
 
     const handleChange: handleChangeType = (event) => {
@@ -77,7 +78,8 @@ const Quiz: React.FC<Props> = ({ data }) => {
         setAnswerChecked(false);
         setOptionChecked(false);
         setSelectedOption(null);
-        setQuizData(Quizgenerator(data));
+        setQuizData(Quizgenerator(data,quizCount));
+        setQuizCount(count => count + 1);
         document.querySelectorAll(".optionsBox").forEach((d) => (d as HTMLElement).style.backgroundColor = "");
     }
 
