@@ -2299,6 +2299,1039 @@ const economicsDataSet: DataSet[] = [
             "All of the above"
         ]
     },
+    {
+        "question": "Which of following statements are true regarding “Long Term Repo Operations”:",
+        "questionOptions": [
+            "It comes under liquidity adjustment facility",
+            "The interest rate should be at or above the repo rate",
+            "It is long term lending by RBI"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "2 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following could be the impact of Long-Term Repo Operation (LTRO) conducted by RBI:",
+        "questionOptions": [
+            "Increase in money supply",
+            "Increase in inflation",
+            "Increase in interest rate",
+            "Increase in liquidity with banks"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1, 2 & 3 only",
+            "1 & 4 only",
+            "1, 2 & 4 only",
+            "2, 3 & 4 only"
+        ]
+    },
+    {
+        "question": "Which of the following could be the reasons for the deficit in banking system liquidity:",
+        "questionOptions": [
+            "An uptick in the bank credit",
+            "Advance tax payments by corporates",
+            "Incremental deposit growth not keeping pace with credit demand",
+            "Intervention of the RBI into the forex market to prevent rupee depreciation"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 & 3 only",
+            "3 & 4 only",
+            "1, 2 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Banking system liquidity has turned into surplus, what could be the probable reasons:",
+        "questionOptions": [
+            "Currency leakage",
+            "Government expenditure not picking up"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the “Monetary Policy” followed by RBI:",
+        "questionOptions": [
+            "It follows flexible inflation target",
+            "While inflation is in control, RBI can focus on growth ",
+            "Financial Stability is the explicit mandate of monetary policy",
+            "Achieving monetary policy objective will ensure financial stability"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 4",
+            "2, 3 & 4"
+        ]
+    },
+    {
+        "question": " Which of the following monetary policy tools are used at RBI’s discretion rather than banks availing the facility as per their own requirement:",
+        "questionOptions": [
+            "Open market operation",
+            "Long Term Repo Operation",
+            "Overnight fixed rate repo lending",
+            "Reverse repo auction"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2, 3 & 4 only",
+            "1 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the Marginal Cost of Funds based Lending Rate (MCLR):",
+        "questionOptions": [
+            "Banks will do lending at or above MCLR",
+            "MCLR may increase because of increase in CRR/SLR",
+            "MCLR helps in better transmission of policy rate as compared to base rate"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the interest rates linked with an external benchmark rate:",
+        "questionOptions": [
+            "External benchmark rate can be repo rate or yield on government securities ",
+            "Once the repo rate changes the lending rate of banks will automatically change",
+            "Banks are mandated by RBI to link the deposit and lending rate with an external benchmark rate"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the “spread” charged over the external benchmark rate by the banks:",
+        "questionOptions": [
+            "The spread will be decided by the banks",
+            "The spread will change with the change of external benchmark rate",
+            "The spread may be different for different categories of loans"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Non-Banking Finance Companies (NBFCs):",
+        "questionOptions": [
+            "RBI mandates NBFCs to link their lending rates with an anchor rate",
+            "MCLR is an anchor rate which acts as an external benchmark rate"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following could create a hindrance in achieving the objective of inflation targeting by RBI:",
+        "questionOptions": [
+            "Government deviating from the fiscal road map",
+            "Impediments in monetary policy transmission",
+            "Supply-side bottlenecks"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following market plays the major role in transmission of monetary policy?",
+        "answer": 1,
+        "options": [
+            "Government Securities market",
+            "Money Market",
+            "Forex market",
+            "Capital Market"
+        ]
+    },
+    {
+        "question": "Which of the following operations by RBI can help in ‘monetary transmission’:",
+        "questionOptions": [
+            "Forex Swap",
+            "Open Market Operation",
+            "Operation Twist",
+            "Long Term Repo Operation (LTRO)"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 only",
+            "1 & 2 only",
+            "1, 3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding real and nominal interest rate:",
+        "questionOptions": [
+            "Real Interest Rate must be positive to encourage savings and reduce consumption",
+            "Nominal interest rate must be positive to attract savings in banks",
+            "Real interest rate is always positive"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "2 only"
+        ]
+    },
+    {
+        "question": "Which of the following factors may lead to increase in savings in the economy:",
+        "questionOptions": [
+            "Positive real interest rate",
+            "Low inflation rate",
+            "Rise in per capita income",
+            "Growth of financial intermediaries"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "3 only",
+            "3 & 4 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": " The term ‘Inflation Premium’ refers to:",
+        "answer": 2,
+        "options": [
+            "Higher nominal return that equity investors get due to increase in inflation",
+            "It is the risk that investors have to face because of higher inflation",
+            "It the higher return that investors demand in exchange for investing in a long-term security because of higher inflation risk",
+            "It is the high return that short term bond investors demand due to higher inflation risk"
+        ]
+    },
+    {
+        "question": "Inflation in the economy generally leads to which of the following:",
+        "questionOptions": [
+            "Depreciation of currency",
+            "Appreciation of currency",
+            "Increase in real interest rate",
+            "Increase in nominal interest rate"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "1 & 4 only",
+            "1, 3 & 4 only"
+        ]
+    },
+    {
+        "question": "If an economy is in “Liquidity Trap”, then which of the following statements shall be true:",
+        "questionOptions": [
+            "The interest rate in the market will be very low/zero",
+            "People and businesses both will hold on to their cash and don’t spend",
+            "Yield on bonds will be very less",
+            "Demand Deposits of banks increases"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 4 only",
+            "1, 2 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Inflation benefits creditors",
+            "Inflation benefits debtors",
+            "Inflation benefits bondholders",
+            "Inflation benefits depositors"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 & 3 only",
+            "2 only",
+            "3 only",
+            "1, 3 & 4 only"
+        ]
+    },
+    {
+        "question": "Consider the statements:",
+        "questionOptions": [
+            "Headline inflation measures price inflation arising due to all types of commodities in the economy",
+            "Core inflation measures the headline inflation excluding volatile components i.e., food and fuel items"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "If a country is experiencing inflation,then what will decrease",
+        "answer": 3,
+        "options": [
+            "Wage level",
+            "The output of goods and services",
+            "The amount of money needed to purchase a given quantity of goods and services",
+            "Purchasing Power"
+        ]
+    },
+    {
+        "question": "Which of the following will be the outcome if an economy is under the inflationary pressure:",
+        "questionOptions": [
+            "Domestic currency heads for depreciation",
+            "Exports become less competitive with imports getting costlier",
+            "Cost of borrowing decreases"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "Which of the following may lead to an increase in the overall prices:",
+        "questionOptions": [
+            "Increase in effective demand",
+            "Decrease in the aggregate level of output",
+            "Increase in aggregate output",
+            "An increase in overall employment"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 4 only",
+            "2 & 4 only",
+            "1, 2 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following will necessarily lead to inflation?",
+        "answer": 1,
+        "options": [
+            "Increase in aggregate demand",
+            "Increase in effective demand",
+            "Decrease in aggregate output",
+            "Increase in government spending"
+        ]
+    },
+    {
+        "question": "If the supply of money is increased in the economy, then which of the following statements are true",
+        "answer": 1,
+        "options": [
+            "It may lead to an increase in interest rates",
+            "It may lead to a decrease in interest rates",
+            "It will necessarily lead to economic growth",
+            "None of the above"
+        ]
+    },
+    {
+        "question": " The amount of Money Supply in the economy affects the following macroeconomic variables:",
+        "answer": 3,
+        "options": [
+            "Rate of Interest",
+            "Price level",
+            "Output",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following scenarios can support sustainable economic growth:",
+        "questionOptions": [
+            "Deflation",
+            "Low and moderate inflation",
+            "Galloping inflation",
+            "Hyperinflation"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "2 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following are the reasons that make a moderate level of inflation good for the economy:",
+        "questionOptions": [
+            "It increases consumption levels",
+            "It keeps businesses profitable",
+            "It induces people to save more"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 only",
+            "1 & 2 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding an economy facing deflation:",
+        "questionOptions": [
+            "Companies defer their investments",
+            "People defer their expenditures",
+            "Demand decreases",
+            "Unemployment increases"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "3 only",
+            "3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "'Stagflation' occurs in which of the following situation:",
+        "questionOptions": [
+            "Demand pull inflation",
+            "Cost push inflation"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following are supply side factor/s responsible for inflation:",
+        "questionOptions": [
+            "Increase in exports",
+            "Increase in government expenditure",
+            "Increase in credit creation"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Which of the following are the causes of demand-pull inflation:",
+        "questionOptions": [
+            "Lower interest rate",
+            "Higher government expenditure",
+            "Higher cost of inputs"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 & 2 only",
+            "2 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "If the interest rate is decreased in an economy, it will ",
+        "answer": 2,
+        "options": [
+            "Decrease the consumption expenditure in the economy",
+            "Increase the tax collection of the Government",
+            "Increase the investment expenditure in the economy",
+            "Increase the total savings in the economy"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "High output leads to high unemployment",
+            "High unemployment leads to high inflation"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements in the context of inflation:",
+        "questionOptions": [
+            "An overheating economy is an economy that is expanding at an unsustainable rate",
+            "Increasing interest rate by RBI is more effective in case of demand pull- inflation rather than in cost push"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": " Consider the following statements:",
+        "questionOptions": [
+            "Disinflation is a declining rate of inflation, but the rate of inflation remains positive",
+            "Deflation is a general decrease in price level and the inflation rate is negative"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "The term ‘Reflation’ of economy is related to which of the following:",
+        "questionOptions": [
+            "Fiscal stimulus to expand the output",
+            "It tries to curb the effects of deflation",
+            "Monetary stimulus by reducing the interest rate"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding an economy facing disinflation:",
+        "questionOptions": [
+            "Companies defer their investments",
+            "People defer their expenditures",
+            "Demand decreases",
+            "Unemployment increases"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "None of the above",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'Sovereign Gold Bonds':",
+        "questionOptions": [
+            "These are government securities denominated in grams of gold",
+            "Issued by RBI on behalf of Govt. of India",
+            "Investors will receive a fixed interest rate",
+            "If the market price of gold declines, investors will be protected against capital loss"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1, 2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Investments in Gold ETFs does not lead to procurement/import of gold.",
+            "Gold ETFs value move inversely with the price of physical Gold",
+            "Investments in Sovereign Gold Bonds will lead to reduction in Current Account Deficit"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 3 only",
+            "3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the recently launched ‘Sovereign Green Bonds (SGB)’:",
+        "questionOptions": [
+            "These bonds will be part of Govt. borrowing and will be debt. on Govt. of India",
+            "The proceeds will be deployed in public sector projects which help in reducing the carbon intensity of the economy",
+            "The proceeds of SGB can be used for investment, subsidies, grant-in-aid or tax forgone"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "The recently constituted Green Finance Working Committee (GFWC) will be chaired by",
+        "answer": 2,
+        "options": [
+            "Union Finance Minister",
+            "RBI Governor",
+            "Chief Economic Advisor",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Which of the following will help in reducing the current account deficit:",
+        "questionOptions": [
+            "Adopting suitable policies to attract FDI/FPI",
+            "The foreign currency earnings of India’s IT sector",
+            "Foreign investments in Govt. securities"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "3 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding “Shadow Banking”:",
+        "questionOptions": [
+            "They by and large raise funds from the market",
+            "Their activities are transparent and properly regulated",
+            "These are mostly non-bankingfinancial institutions"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "3 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "'Enhanced Access and Service Excellence (EASE)' is linked to which of the following",
+        "answer": 0,
+        "options": [
+            "Public sector bank reforms",
+            "e-Governance",
+            "Digital India Programme",
+            "None of the above"
+        ]
+    },
+    {
+        "question": " Integrated Ombudsman Scheme is applicable on:",
+        "questionOptions": [
+            "Banks ",
+            "NBFCs",
+            "Payment System Providers",
+            "Credit Information Companies (CIC)"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statementsregarding the ‘Integrated Ombudsman Scheme, 2021’:",
+        "questionOptions": [
+            "RBI will appoint the Ombudsman for a period not exceeding five years at a time",
+            "There is a limit to the dispute value that can be brought before the Ombudsman"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "With new RBI Tokenization rules already in effect, consider the following statements: ",
+        "questionOptions": [
+            "For each (card) transaction a new token needs to be generated ",
+            "Now, generating tokens is mandatory i.e. you can't do transactions without tokens"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Tokenization’ of card services:",
+        "questionOptions": [
+            "Tokenization is mandatory for the customers",
+            "The merchants will generate the tokens",
+            "No entity in the card transaction or payment chain can store the actual card data"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "3 only",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'Kisan Credit Card (KCC)' scheme:",
+        "questionOptions": [
+            "It provides short-term credit for cultivation of crops as well as long term credit",
+            "It provides credit for consumption requirements of farmer's household",
+            "Available to owner cultivator, tenant farmers and sharecroppers "
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following category of financial institutions are not involved in the implementation of Kisan Credit Cards (KCC)?",
+        "answer": 3,
+        "options": [
+            "Regional Rural Banks (RRBs)",
+            "Cooperative Banks",
+            "Small Finance Banks",
+            "Non-Banking Financial Institutions (NBFCs)"
+        ]
+    },
+    {
+        "question": "Which category of financial institutions have the highest share in agricultural credit",
+        "answer": 0,
+        "options": [
+            "Commercial Banks (excluding regional rural banks)",
+            "Regional Rural banks",
+            "Cooperative Banks",
+            "Non-Banking Financial Companies"
+        ]
+    },
+    {
+        "question": "Which of the statements is correct regarding the term 'bail-in'?",
+        "answer": 2,
+        "options": [
+            "rescuing of corporates by government",
+            "rescuing of financial institutions by taxpayers’ money",
+            "rescuing of financial institutions by its depositors/ creditors",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the 'Prompt Corrective Action (PCA)' framework for banks:",
+        "questionOptions": [
+            "It is a supervisory tool of RBI for effective market discipline",
+            "It applies once financial institutions reach certain threshold level regarding Capital, asset quality and leverage"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following actions RBI can take once it declares a particular bank under Prompt Corrective Action:",
+        "questionOptions": [
+            "Prohibit lending",
+            "Increase in provisioning ",
+            "Bring in new management or supersede the bank’s board",
+            "Bank merger"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 4 only",
+            "3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Supervisory Action Framework’:",
+        "questionOptions": [
+            "It is applicable to Urban-Cooperative banks",
+            "It can be initiated in case of serious governance issues"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Recently the term ‘DAKSH’ was seen in the news is related to which of the following",
+        "answer": 2,
+        "options": [
+            "MSMEs",
+            "Defence equipment",
+            "RBI",
+            "SEBI"
+        ]
+    },
+    {
+        "question": "The theme for the ‘Financial Literacy Week’ 2023 is",
+        "answer": 1,
+        "options": [
+            "Go digital, go secure",
+            "Good financial behaviour – your saviour",
+            "Micro Small and Medium Enterprises",
+            "Credit Discipline and Credit from Formal Institutions"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding 'Domestic Systemically Important Banks (DSIB)':",
+        "questionOptions": [
+            "These are also called 'too big to fail'",
+            "They need to meet additional capital requirement",
+            "The list of DSIB should be declared annually by RBI",
+            "The list of DSIB is declared by the Ministry of Finance"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "2 & 4 only",
+            "1, 2 & 3 only"
+        ]
+    },
+    {
+        "question": "Which of the following bank is not in the list of 'Domestic Systemically Important Banks'",
+        "answer": 0,
+        "options": [
+            "Axis Bank",
+            "HDFC Bank",
+            "ICICI Bank",
+            "State Bank of India (SBI)"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding RBI’s ‘Payments Infrastructure Development Fund’:",
+        "questionOptions": [
+            "The fund will be managed by RBI",
+            "The fund will receive contributions from Govt. of India",
+            "It will specifically promote the ‘Point of Sale’ infrastructure usage by retailers"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "3 only",
+            "2 only"
+        ]
+    },
+    {
+        "question": "RBI manages its forex reserves as:",
+        "questionOptions": [
+            "Deposits with Bank for International Settlement (BIS)",
+            "Deposits with Foreign Commercial banks",
+            "Deposits with foreign Central banks"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements is true regarding “Line of Credit”",
+        "answer": 2,
+        "options": [
+            "It is issued by one bank to another",
+            "It is issued mainly in case of international transactions",
+            "It is a preset amount of money that a bank has agreed to lend",
+            "The company will have to pay interest on the amount for which line of credit has been issued"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding “Letter of credit”:",
+        "questionOptions": [
+            "It is a form of bank guarantee",
+            "It is an assurance that a buyer’s payment to a seller will be received on time",
+            "It is a letter issued from a bank that the bank has agreed to lend"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding “Teaser Loans”:",
+        "questionOptions": [
+            "It is a fixed cum floating loan product",
+            "These are short-term loans",
+            "These loans are banned by RBI"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "3 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": " The term “provisioning” in the banking sector is related to which of the following:",
+        "answer": 1,
+        "options": [
+            "It is the loss that the bank incurs on sale of bad assets",
+            "It is the amount of fund that the bank needs to set aside when the loan turns NPA",
+            "It is the minimum amount of funds that the depositors will receive when the bank goes bankrupt",
+            "It is the minimum amount which the borrower will have to pay even if the loan turns NPA"
+        ]
+    },
+    {
+        "question": "The term ‘Securitization’ refers to which of the following",
+        "answer": 1,
+        "options": [
+            "Issuance of securities of smaller values to raise liquidity",
+            "Pooling and repackaging of financial assets into marketable securities",
+            "Selling of debt securities to get access to liquidity",
+            "An unconventional monetary policy tool to pump liquidity in the economy through creation of securities"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Capital Adequacy Ratio (CAR) is the amount that banks have to maintain in the form of their own funds to offset any loss that banks incur if the accountholders fail to repay dues.",
+            "CAR is decided by each individual bank."
+        ],
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:"
+    },
+    {
+        "question": "Consider the following statements regarding ‘Additional Tier 1 bonds’:",
+        "questionOptions": [
+            "They are part of the capital under Basel III norms",
+            "They are perpetual in nature and have no maturity period",
+            "They can be written down in case of bank failure"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 only",
+            "3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'recapitalization of public sector banks' through 'recapitalization bonds':",
+        "questionOptions": [
+            "It will increase capital adequacy ratio of banks",
+            "Govt will borrow money from banks",
+            "Govt will put money into banks as a creditor",
+            "will provide safety to depositors"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 & 4 only",
+            "1, 2 & 4 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "The Gross NPA ratio of Scheduled Commercial Banks has fallen to 5.0",
+            "The Capital adequacy ratio of Scheduled Commercial Banks hasimproved to 16.0"
+        ],
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:"
+    }
 ]
 
 export default economicsDataSet
