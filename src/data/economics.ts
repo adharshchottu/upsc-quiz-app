@@ -3331,6 +3331,1025 @@ const economicsDataSet: DataSet[] = [
             "Neither 1 nor 2"
         ],
         "questionDirection": "Select the correct answer using the code given below:"
+    },
+    {
+        "question": "Which of the following statements are true regarding the “Liberalized Remittance Scheme” (LRS):",
+        "questionOptions": [
+            "It is applicable to Individuals only and not companies",
+            "It is applicable for both current and capital account",
+            "Foreign exchange trading is not permitted in this scheme"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following instrumentsare permitted for receiving ‘foreign investment’ in an Indian Company:",
+        "questionOptions": [
+            "Equity shares",
+            "Debentures",
+            "Preference Shares",
+            "Share Warrants"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following can be treated as FDI:",
+        "questionOptions": [
+            "Investment in Central and State Govt. securities",
+            "Foreign Currency Convertible Bonds (FCCB)",
+            "Global Depository Receipts (GDRs)",
+            "Financial Lease"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "2, 3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Foreign Direct Investment (FDI) in India can happen by which of the following ways:",
+        "questionOptions": [
+            "Subsidiary",
+            "Joint Venture",
+            "Acquisition of shares"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1, 2 & 3 only",
+            "3 only"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding Foreign Direct Investment (FDI):",
+        "questionOptions": [
+            "FDI investment happens mainly through primary market",
+            "FDI investment is about equity securities",
+            "FDI investment can happen through convertible debentures"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Foreign Portfolio Investors (FPI):",
+        "questionOptions": [
+            "FPI is mainly in secondarymarket",
+            "FPI investment may happen through primary market",
+            "They can invest both in debt and equity"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Foreign Portfolio investments are more volatile than FDI",
+            "FDI investors can easily sell their holdings and quit the market",
+            "Foreign Portfolio investment is sector-specific",
+            "FDI investment in general target the capital market"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "3 & 4 only",
+            "4 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "A Foreign Portfolio Investor can maximum invest 10 per cent in an Indian Company",
+            "When Foreign Investment in an Indian company is more than 10 per cent, it is treated as FDI"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statementsregarding Foreign Direct Investment (FDI):",
+        "questionOptions": [
+            "FDI is mostly in non-debt instruments",
+            "If an earlier FDI investment of more than 10% comes below 10% then it will be treated as FPI"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "FDI requires SEBI approval/license ",
+            "FPI requires SEBI approval/license ",
+            "FDI & FPI both require RBI approval/license"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 & 2 only",
+            "2 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding FDI/FPI:",
+        "questionOptions": [
+            "FDI get attracted by higher economic growth ",
+            "FPI get attracted by higher economic growth as well as higher interest rate",
+            "FPI get attracted by interest rate differential"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "1 & 2 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following instruments, Which of the above are part of 'Overseas financial assets of Indian Residents':",
+        "questionOptions": [
+            "Overseas Direct Investments",
+            "Reserve assets",
+            "India's portfolio investments"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "2 and 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding Foreign Portfolio Investors (FPIs):",
+        "questionOptions": [
+            "They fund India’s Current Account Deficit (CAD)",
+            "They help in achieving governments disinvestment target",
+            "They are liable to pay capital gain tax in India"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Foreign Direct Investment in India under 'Government Route' is approved by which of the following agency/body",
+        "answer": 3,
+        "options": [
+            "Department of Economic Affairs",
+            "Department for Promotion of Industry and Internal Trade (DPIIT)",
+            "Reserve Bank of India (RBI)",
+            "Respective administrative Ministry/ Department"
+        ]
+    },
+    {
+        "question": " Which of the following instruments can be considered as part of the External Commercial Borrowing (ECB):",
+        "questionOptions": [
+            "Trade credits",
+            "Preference shares",
+            "Fully and compulsorily convertible debentures"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 2 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "External Commercial Borrowing is a part of ‘Foreign Investment’ in India",
+            "Financial Leases are instruments of External Commercial Borrowing",
+            "Foreign Currency Convertible Bonds (FCCB) can be included in both ECB and ‘Foreign Investment’ "
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statementsregarding ‘Masala’ bonds:",
+        "questionOptions": [
+            "Through masala bonds, capital is raised in foreign currency",
+            "Repayment is made in foreign currency",
+            "By issuance of masala bonds, the exchange risk is transferred to the investor"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following measures will help in preventing rupee depreciation:",
+        "questionOptions": [
+            "Easing restriction on ECB",
+            "Easing restrictions on raising funds through Masala Bonds",
+            "Restricting imports of non-essential commodities",
+            "Restricting FPI investments in India"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "1, 2 & 3 only",
+            "3 & 4 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding “GIFT-SEZ”:",
+        "questionOptions": [
+            "All transactions are in foreign currency only",
+            "It is the only place in India designated as ‘International Financial Services Centre’",
+            "It provides financial services to residents and non-residents both"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Masala Bonds’:",
+        "questionOptions": [
+            "It may be listed in India",
+            "It is part of India’s external debt",
+            "Masala bonds help in financing India’s current account deficit"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Recently the term “Fully Accessible Route” was in the news, and is related to which of the following?",
+        "answer": 0,
+        "options": [
+            "Removal of restrictions on investment in government securities by NRIs",
+            "Removal of restrictions on FPI investment in corporate bonds",
+            "Removal of restriction on FDI investment in strategic sectors",
+            "Removal of restrictions on overseas investment by Indian residents"
+        ]
+    },
+    {
+        "question": "The term 'Phantom Capital' wasrelated to which of the following",
+        "answer": 3,
+        "options": [
+            "Fake currency notes",
+            "Recapitalization of the public sector banks",
+            "Circular Flow of Income in aneconomy",
+            "Foreign Direct Investment"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding “strategic disinvestment” of PSUs:",
+        "questionOptions": [
+            "Government sells up to 50% or a higher percentage of shares to a strategic partner",
+            "Management control must be transferred to the strategic partner",
+            "Other PSUs can bid in the strategic disinvestment process"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 2 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following ministries/departments identify PSUs for “Strategic Disinvestment”?",
+        "answer": 2,
+        "options": [
+            "Department of Investment and Public Asset Management (DIPAM)",
+            "NITI Aayog",
+            "Jointly by DIPAM and NITI Aayog",
+            "Inter-Ministerial body called ‘Alternative Mechanism’"
+        ]
+    },
+    {
+        "question": " Which of the following are the objectives of the ‘Strategic Disinvestment Policy’ of Govt. of India announced recently:",
+        "questionOptions": [
+            "Financing of the social sector and developmental programmes of Govt.",
+            "Creating new space for private sector",
+            "Post-disinvestment PSUs will be able to create more jobs and contribute to economic growth through private capital and technology"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 only",
+            "3 only",
+            "1 & 2",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding “Alternative Mechanism”?",
+        "answer": 0,
+        "options": [
+            "It is an inter-ministerial body to fasten the process of strategic disinvestment",
+            "It is an inter-ministerial body to identify PSUs for strategic disinvestment",
+            "It is the nodal department for strategic disinvestment",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Which of the following will be included in the balance of payments of India:",
+        "questionOptions": [
+            "It records transactions between the citizens of a country and the rest of the world",
+            "Factor income of Indian residents from abroad",
+            "Gift received by a family in India from his NRI son"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following constitute Capital Account in BoP:",
+        "questionOptions": [
+            "Global Depository Receipts (GDRs)",
+            "NRI deposits",
+            "Government securities purchased by Foreign Investors",
+            "Securities purchased by foreign portfolio investors"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "3 & 4 only",
+            "1, 2 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Global Depository Receipts’",
+        "answer": 0,
+        "options": [
+            "It is a form of equity investment in listed Indian companies",
+            "These are investments in banks through debt papers",
+            "These are a way for external borrowing by Indian companies",
+            "It is a way of borrowing by Govt. of India from external sources"
+        ]
+    },
+    {
+        "question": "Which of the following are parts of capital account transaction:",
+        "questionOptions": [
+            "Masala bonds",
+            "Purchase of capital equipment from abroad",
+            "NRI deposits in Indian banks"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "3 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "Which of the following statements are parts of ‘Transfer Payments’ in balance of payment:",
+        "questionOptions": [
+            "Gift sent by an NRI to his friend in India",
+            "Money sent by an Indian employee to his family in India who have gone abroad temporarily"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Arrange the countries in the decreasing order of remittances received (in dollars) last year (2022)",
+        "answer": 3,
+        "options": [
+            "India>China>Mexico>Philippines",
+            "China>India>Mexico>Philippines",
+            "India>China>Philippines>Mexico",
+            "India> Mexico> China>Philippines"
+        ]
+    },
+    {
+        "question": "The Current Account Deficit in Balance of Payment can be financed through:",
+        "questionOptions": [
+            "Net capital inflow",
+            "Foreign exchange reserve transaction"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the currency swap agreement between two countries:",
+        "questionOptions": [
+            "The countries can exchange their own currencies or a third currency ",
+            "It is an open-ended credit line from one country to another at a fixed exchange rate"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding the recent amalgamation of Punjab and Maharashtra Co-operative (PMC) Bank Ltd. with Unity Small Finance Bank Limited:",
+        "questionOptions": [
+            "RBI Act 1934 allows RBI to prepare a scheme for amalgamation/reconstruction of banks in the public interest",
+            "RBI Act 1934 gives the power to RBI to supersede the Board of a bank in the public interest",
+            "Banking Regulation Act 1949 allows RBI to prepare a scheme for amalgamation/reconstruction of banks in the public interest",
+            "PMC was a multi-state scheduled primary cooperative bank"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 4 only",
+            "1 & 2 only",
+            "3 only",
+            "3 & 4 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Reserve Bank of India (RBI) Act 1934:",
+        "questionOptions": [
+            "As per the RBI Act 1934, RBI, in public interest can supersede the management of a non-banking financial company",
+            "The Central Government can supersede the ‘Central Board’ of RBI under RBI Act 1934"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the resolution of stressed assets:",
+        "questionOptions": [
+            "RBI can issue directions to banking companies for resolution of stressed assets",
+            "RBI can direct banking companies to move through IBC 2016 for resolution of stressed assets only upon authorization of Govt. of India",
+            "Lenders require RBI authorization for resolution of stressed assets under IBC Code 2016"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the Insolvency and Bankruptcy Code 2016:",
+        "questionOptions": [
+            "Committee of Creditors consist of only financial creditors",
+            "Operational creditors do not share the resolution proceeds",
+            "NCLT will decide the distribution of proceeds between financial and operational creditors"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "3 only"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the Insolvency and Bankruptcy Code 2016:",
+        "questionOptions": [
+            "The resolution plan should be approved by NCLT",
+            "In any case, the resolution process must be completed within 330 days including litigation"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Insolvency and Bankruptcy Code (IBC) 2016:",
+        "questionOptions": [
+            "IBC is applicable to Financial Service Providers like NBFCs ",
+            "Central Government has the authority to decide which type of financial service providers will be included for resolution under IBC",
+            "IBC has not been made applicable for insolvency of banks "
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the resolution of the Financial Service Providers (FSP) under IBC 2016:",
+        "questionOptions": [
+            "Govt. of India in consultation with the appropriate regulator will decide which category of FSPs can be taken up for resolution under IBC ",
+            "To initiate the resolution of FSPs under IBC 2016, the appropriate the regulator should make an application"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Who cannot bid for companies put up for sale under the new Insolvency and Bankruptcy Code (IBC):",
+        "questionOptions": [
+            "A wilful defaulter",
+            "Promoters of the company"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the SARFAESI Act 2002:",
+        "questionOptions": [
+            "It is applicable to banks and NBFCs both",
+            "It allows the selling of the security in case of secured lending"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the recently created ‘bad bank’:",
+        "questionOptions": [
+            "It will help in the resolution of bad assets of only public sector banks",
+            "The bad bank will purchase bad assets from banks in cash",
+            "Govt. of India is giving a guarantee on the securities issued by the bad bank"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 3 only",
+            "2 only",
+            "3 only",
+            "None of the above"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding “Pre-Pack” scheme under IBC 2016:",
+        "questionOptions": [
+            "It is applicable for defaults by MSMEs of less than Rs. 1 crore",
+            "The management will remain with the promoters of the distressed firm",
+            "Only debtors can initiate pre-pack insolvency resolution"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "“Liquidity Coverage Ratio” is defined as a ratio of",
+        "answer": 2,
+        "options": [
+            "High quality liquid assets to cash outflow for 30 days period",
+            "High quality liquid assets to deposits of the public in the bank",
+            "High quality liquid assets to net cash outflow amount over a 30 days period",
+            "High quality liquid assets to total lending of banks"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding crypto currencies in India:",
+        "questionOptions": [
+            "They are treated as virtual digital assets rather than a legal currency",
+            "Income from transfer of these crypto currencies are taxed at rate of 30%",
+            "Levy of tax on cryptos does not legalise crypto trade"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Central Bank Digital Currency (CBDC) e-Rupee: ",
+        "questionOptions": [
+            "It will be a fiat currency and legal tender and will not have intrinsic value",
+            "It will exist only in digital form",
+            "CBDCs held by people will be reflected as liability on the RBI balance sheet rather than banks",
+            "It could lead to instantaneous payment without any processing delays"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 3 only",
+            "2 & 4 only",
+            "3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding CBDC (e-Rupee):",
+        "questionOptions": [
+            "It is a bearer instrument",
+            "It would offer features of physical cash like trust, safety and settlement facility",
+            "RBI Act 1934 has been amended to include e-Rupee as legal tender"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the followings statements regarding ‘e-RUPI’ (voucher):",
+        "questionOptions": [
+            "It is a digital/virtual currency",
+            "It will be issued by National Payments Corporation of India (NPCI)",
+            "It (the SMS string / QR Code) will be sent to the beneficiary's mobile by the participating banks",
+            "It can be used only by specific persons for specific purpose",
+            "It can be redeemed only at certain specific centres",
+            "It can be accessed even by someone who do not have a bank account",
+            "It can be transferred to other person and converted into cash"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "2, 3 & 5 only",
+            "3, 4, 5 & 6 only",
+            "3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Non-Fungible Tokens (NFTs)’:",
+        "questionOptions": [
+            "They are unique cryptographic assets that are not mutually interchangeable",
+            "They are basically a kind of crypto currencies",
+            "NFTs can be used to represent real world items like digital artwork, music etc."
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "A reduction in repo rate by RBI may not be transmitted into lending rate in the economy because of:",
+        "questionOptions": [
+            "Banks cost of funds remaining high",
+            "Government offering higher interest on its own savings schemes",
+            "Liquidity crunch in the economy"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "The term “On-lending model” was recently in the news is related to which of the following?",
+        "answer": 0,
+        "options": [
+            "Loan given by NBFCs out of bank borrowing to priority sectors will be considered as Priority Sector Lending",
+            "Loans given by Development Financial Institutions to banks for further lending",
+            "Loans given by banks to Development Financial Institutions",
+            "RBI giving loans to NBFCs for onward lending"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the ‘Co-lending’ by Banks and NBFCs for lending to priority sector:",
+        "questionOptions": [
+            "The banks can claim the total amount of loan given under co-lending as priority sector lending",
+            "The banks and NBFCs have to keep the same price for their part of the loan",
+            "In this model banks can leverage their strong presence in local markets while NBFCs will have the cheap availability of funds"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "None of the above",
+            "All of the above"
+        ]
+    },
+    {
+        "question": " Which of the following statements are true regarding Priority Sector Lending:",
+        "questionOptions": [
+            "Regional Rural Banks and Small Finance Banks are required to give 75% of their credit to priority sectors",
+            "RBI assigns higher weights to the priority sector credit given in the districts where the per capita priority sector lending is less"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following will deter investments in the economy:",
+        "questionOptions": [
+            "High real interest rate",
+            "High-capacity utilization"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements in a market determined exchange rate system:",
+        "questionOptions": [
+            "Imposing tariff may not help in improving trade balance as the exchange rate moves to offset the tariff",
+            "The exchange rate depends on the demand and supply of the two currencies"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding rupee-dollar rate in foreign exchange market:",
+        "questionOptions": [
+            "Inflation in the domestic economy will lead to rupee depreciation",
+            "Rupee depreciation will lead to inflation in the domestic goods in the economy "
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following activities will increase liquidity in the economy:",
+        "questionOptions": [
+            "Advance tax payment",
+            "Input tax credit on GST",
+            "Front loading of government expenditure",
+            "Recapitalization of public sector banks"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 & 3 only",
+            "2, 3 & 4 only",
+            "3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "The problem of international liquidity is related to the non-availability of",
+        "answer": 2,
+        "options": [
+            "Goods and services",
+            "Gold and silver",
+            "Dollars and other hard currencies",
+            "Exportable surplus"
+        ]
+    },
+    {
+        "question": "Surplus liquidity in the economy may result in which of the following:",
+        "questionOptions": [
+            "Reduction in cost of capital",
+            "Depreciation of currency",
+            "Softening of bond yield"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements: ",
+        "questionOptions": [
+            "If the interest rate goes up, the bond yield goes up",
+            "Bond yield can change even if the interest rate does not change"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "If there is a surge in bond yields in the domestic economy, then:",
+        "questionOptions": [
+            "Bondholders will gain",
+            "It will attract FPI debt investors",
+            "It will positively impact Government's disinvestment plan"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 2 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding bond yield:",
+        "questionOptions": [
+            "Generally, the yield curve of bonds is upward sloping",
+            "Bond yield inversion happens when yield on short duration bonds are higher than long duration bonds",
+            "Generally, the inversion in bond yield curve indicates a trouble in the economy"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": " Microfinance is the provision of financial services to people of low-income groups. This includes both the consumers and the self-employed. Services rendered under microfinance is/are: ",
+        "questionOptions": [
+            "Credit facilities",
+            "Savings facilities",
+            "Insurance facilities",
+            "Fund transfer facilities"
+        ],
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 4 only",
+            "2 & 3 only",
+            "All of the above"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:"
+    },
+    {
+        "question": "Consider the following statements regarding microfinance loans:",
+        "questionOptions": [
+            "It should be collateral free loan",
+            "Interest rate is regulated by RBI",
+            "These are loans availed by households having annual income up to Rs. 3,00,000"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following type of institutions provide the maximum microfinance credit",
+        "answer": 0,
+        "options": [
+            "Banks",
+            "NBFCs",
+            "MFI-NBFCs",
+            "Others"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Debt overhang refers to a debt burden so large that an entity cannot take on additional debt to finance future projects.",
+            "Debt trap is a situation in which it becomes difficult or impossible to repay the debt"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
     }
 ]
 
