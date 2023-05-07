@@ -4350,6 +4350,3654 @@ const economicsDataSet: DataSet[] = [
             "Both 1 & 2",
             "Neither 1 nor 2"
         ]
+    },
+    {
+        "question": "Which of the following can be considered as a case of ‘financial repression’:",
+        "questionOptions": [
+            "Banks requiring to maintain a statutory liquidity ratio",
+            "Cap on bank's interest rates",
+            "Issuance of non-marketable debt by the government",
+            "Regulation of cross-border capital movement"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1, 2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "In recent times, Indian companies have aggressively pursued ‘deleveraging’, which refers to",
+        "answer": 1,
+        "options": [
+            "Converting their debt into equity",
+            "Reducing the debt by selling assets of the companies",
+            "Reducing the promoter’s equity in the company",
+            "Increasing debt to fund business expansion plans"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Circuit Breaker’:",
+        "questionOptions": [
+            "Circuit breaker applies when the stock or indices moves too much in either direction",
+            "Circuit breakers when triggered may bring about a coordinated trading halt in all the equity markets nationwide"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "The term ‘Transfer Pricing’ was recently in the news, it is related to which of the following?",
+        "answer": 1,
+        "options": [
+            "The price at which one company sells intermediate goods to other companies",
+            "The price at which goods are transferred within group companies",
+            "The price at which goods are transferred between shell companies",
+            "The price at which one company transfers its goods from one state to another state for stocking purpose"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Advance Pricing Agreement’:",
+        "questionOptions": [
+            "It is an agreement between a tax authority and a taxpayer",
+            "It is an agreement between two governments",
+            "It is an agreement to discover the pricing methodology between related company transactions",
+            "It helps in making a country an attractive destination for foreign investments"
+        ],
+        "answer": 3,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "2 & 4 only",
+            "1, 3 & 4 only"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:"
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Financial Stability Report’",
+        "answer": 3,
+        "options": [
+            "Released annually by Dept. of Economic Affairs",
+            "Released biannually by Dept. of Economic Affairs",
+            "Released annually by RBI",
+            "Released biannually by RBI"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'National Financial Reporting Authority (NFRA)':",
+        "questionOptions": [
+            "It has been established under Company's Act 2013",
+            "It recommends accounting and auditing policies and standards to the Central Government for adoption by companies",
+            "It has the power to enforce compliance with accounting/auditing standards and undertake an investigation of the auditors"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Development Financial Institutions (DFI)’:",
+        "questionOptions": [
+            "They provide long-term finance for relatively high-risk projects",
+            "DFIs also provide equity capital and guarantees apart from debt",
+            "Industrial Finance Corporation of India was the first DFI established in India in 1948 after independence"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the National Bank for Financing Infrastructure Development (NaBFID):",
+        "questionOptions": [
+            "It will provide long-term non-recourse infrastructure financing",
+            "It will seek to attract private sector investors and institutional investors in infrastructure projects in India",
+            "It has been established as a development financial institution by an act of Parliament"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following figures are presented as part of the Budget presentation in Parliament:",
+        "questionOptions": [
+            "Budgeted receipts and expenses for the next Financial Year (FY)",
+            "Budgeted receipts and expenses for the current FY",
+            "Revised receipts and expenses for the current FY",
+            "Actual receipts and expenses for the last FY"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "1, 2, & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Supplementary demand is presented before the end of the financial year to which it relates for any additional expenditure",
+            "Demand for excess grants is presented once the expenditure has been done and the financial year to which it relates has passed"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the presentation of the Budget in the Parliament:",
+        "questionOptions": [
+            "Finance Bill is introduced on the very first day when the Finance Minister presents Budget in the Parliament",
+            "Appropriation Bill is introduced after the voting on demand for grants are over"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Demand for Grants is not approved in Vote-on-Account",
+            "Demand for Grants of UTs without assembly are approved as part of Union Budget ",
+            "Rajya Sabha does not vote on Demand for Grants but can discuss"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following department prepares outcome budget?",
+        "answer": 3,
+        "options": [
+            "Public finance division under Department of expenditure",
+            "Budget division under the department of Economic Affairs",
+            "Department of financial services",
+            "NITI Aayog"
+        ]
+    },
+    {
+        "question": "Which of the following statement is not true regarding 'Outcome Budget'",
+        "answer": 0,
+        "options": [
+            "It is not presented in parliament",
+            "It measures the development outcomes of govt. programmes",
+            "It helps in better service delivery",
+            "It reduces unnecessary expenses"
+        ]
+    },
+    {
+        "question": "Surplus reserves of RBI transferred to The government of India (GOI) will come under which of the following?",
+        "answer": 1,
+        "options": [
+            "Market borrowings and other liabilities",
+            "Non-tax revenue receipts",
+            "Non-debt capital receipts",
+            "Debt receipts"
+        ]
+    },
+    {
+        "question": " The Grants-in-aid are given by the Central Government to the State Governments and local bodies for the creation of capital assets are classified in the Union budget under:",
+        "answer": 0,
+        "options": [
+            "Revenue expenditure",
+            "Capital Expenditure",
+            "Both Revenue and Capital expenditure",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "The term 'Effective Capital Expenditure' is equal to Centre's capital expenditure plus",
+        "answer": 1,
+        "options": [
+            "Central PSUs Capital Expenditure",
+            "Grants given to States for the creation of capital assets",
+            "Finance Commission transfers to States for the creation of capital assets",
+            "Loans given to States for the creation of capital assets"
+        ]
+    },
+    {
+        "question": "Which of the following are Non-Tax Receipts of the Central Government:",
+        "questionOptions": [
+            "Issue of Passport and Visa",
+            "Registration of Companies",
+            "Royalty from onshore oilfields",
+            "Royalty from offshore oilfields"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "1, 2 & 3 only",
+            "1, 2 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following are Non-Tax Revenue Receipts of Govt. of India:",
+        "questionOptions": [
+            "Spectrum Auction",
+            "Revenues of IRCTC",
+            "Examination Fee of Union Public Service Commission"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following are non-debtcapital receipts of Govt. of India:",
+        "questionOptions": [
+            "Disinvestment of PSUs",
+            "Recovery of loans",
+            "Public Account receipts",
+            "Cash Management Bills"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "3 & 4 only",
+            "1, 2 & 3 only"
+        ]
+    },
+    {
+        "question": "Which of the following are part of Capital Budget of Govt. of India:",
+        "questionOptions": [
+            "Proceeds received in the public account of India",
+            "PSUs purchasing capital equipment",
+            "Establishment of “India Post Payment Bank”"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Which of the following is/are included in the capital budget of the Government of India:",
+        "questionOptions": [
+            "Expenditure on the acquisition of assets like roads, buildings, machinery, etc.",
+            "Loans received from foreign governments",
+            "Loans and advances granted to the States and Union Territories"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following are parts of the capital budget of Govt. of India:",
+        "questionOptions": [
+            "Issuance of Sovereign Gold Bonds",
+            "Receipt from Gold Monetization",
+            "Issuance of Sovereign Green Bonds"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 2 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following are revenue receipts of Central Government budget:",
+        "questionOptions": [
+            "RBI paying dividends to govt. of India",
+            "PSUs paying dividends to govt. of India",
+            "PSUs earnings",
+            "Proceeds from the sale of govt. land"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "1, 2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Budget 2023-24:",
+        "questionOptions": [
+            "The central government budgeted expenditure is around 15% of the GDP",
+            "Revenue expenditure and capital expenditure of the central government are almost equal",
+            "States have been allowed a fiscal deficit of 3.5% of GSDP including 0.5% tied to power sector reforms"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding FY 2023-24:",
+        "questionOptions": [
+            "Expected tax/GDP ratio of the centre is 11%",
+            "Centre’s tax buoyancy is expected to be 1",
+            "Centre’s capital expenditure is around one-fourth of the total budgeted expenditure"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Personal Income Tax (PIT)’ as proposed in FY 2023-24:",
+        "questionOptions": [
+            "The new PIT regime promotes savings",
+            "The old PIT regime allows people to claim various exemptions",
+            "An individual can choose either the new or the old PIT regime"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 2 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "Govt. of India is financing the ‘National Infrastructure Pipeline’through which of the following ways:",
+        "questionOptions": [
+            "Establishment of the National Bank for Financing Infrastructure and Development (NaBFID)",
+            "Creation of a ‘National Monetization Pipeline’ of potential brownfield infrastructure assets which can be monetized ",
+            "Nudging States to spend more on infrastructure "
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Tax revenue collection in our economydepends on which of the following factors:",
+        "questionOptions": [
+            "Production of real output ",
+            "Inflation"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "“Tax Buoyancy” in the economy is defined as:",
+        "questionOptions": [
+            "Ratio of percentage change in tax revenue to the percentage change in GDP",
+            "Ratio of change in tax revenue to change in GDP",
+            "Percentage increase in tax revenues as measured from previous year",
+            "Incremental change in tax revenues required to increase the GDP by one per cent"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "3 only",
+            "2 & 4 only"
+        ]
+    },
+    {
+        "question": "Which of the following factors may lead to an increase in 'Tax Buoyancy':",
+        "questionOptions": [
+            "Increase in GDP ",
+            "Improvement in tax administration",
+            "Formalization of Economy ",
+            "Bringing agriculture income under tax"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1, 2 & 3 only",
+            "3 & 4 only",
+            "2, 3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Service Charge’ levied by hotels and restaurants:",
+        "questionOptions": [
+            "It is a kind of indirect tax collected by Government",
+            "Presently hotels and restaurants have been denied collecting ‘service charge’",
+            "Hotels and restaurants can levy service charge but not on takeaway orders"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "3 only",
+            "1 & 2 only"
+        ]
+    },
+    {
+        "question": "Which of the following receipts goes to Public Account of India:",
+        "questionOptions": [
+            "Dated securities",
+            "Kisan Vikas Patra",
+            "Sukanya Samriddhi Account",
+            "Public Provident Fund"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 4 only",
+            "2 & 3 only",
+            "2, 3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the various ‘Small Savings Schemes’ offered by Govt. of India:",
+        "questionOptions": [
+            "The money collected goes into the National Small Savings Fund (NSSF) under Public Account of India",
+            "The interest rate on these schemes have been linked with G-securities of similar maturities",
+            "The NSSF fund is used to lend money to Govt. of India and other Govt. agencies like FCI/NHAI"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Fiscal Deficit is equal to:",
+        "questionOptions": [
+            "Total expenditure minus total receipts",
+            "Total expenditure minus total receipts excluding borrowing",
+            "Revenue deficit plus capital expenditure minus non-debt creating capital receipts",
+            "Total borrowing"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 4 only",
+            "2 & 3 only",
+            "2, 3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": " Fiscal Deficit of the Government of India is equal to which of the following:",
+        "answer": 0,
+        "options": [
+            "Debt-creating capital receipts",
+            "Non-Debt capital receipts",
+            "Debt and non-debt capital receipts",
+            "Capital receipts less of revenue receipts"
+        ]
+    },
+    {
+        "question": "There has been a persistent deficit budget year after year. Which of the following actions can be taken by the Government to reduce the deficit:",
+        "questionOptions": [
+            "Reducing revenue expenditure",
+            "Introducing new welfare schemes",
+            "Rationalizing subsidies"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "1 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the government’s fiscal deficit:",
+        "questionOptions": [
+            "It may be inflationary",
+            "It may not be inflationary",
+            "It raises effective demand"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 2 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Fiscal Slippage may result in which of the following:",
+        "questionOptions": [
+            "Increase in bond yield",
+            "decrease in market interest rates",
+            "Increase in aggregate demand"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following directly finances Govt. of India’s fiscal deficit:",
+        "questionOptions": [
+            "Foreign Direct Investors",
+            "Foreign Portfolio Investors",
+            "NRIs",
+            "RBI"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "2 & 3 only",
+            "2, 3 & 4 only"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding 'fiscal stimulus':",
+        "questionOptions": [
+            "It is a strategy to boost sluggish economy",
+            "RBI pumps money into the economy",
+            "Government reduces subsidies",
+            "Public spending increases"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "1, 2, & 4 only",
+            "1, 3 & 4 only",
+            "1 & 4 only"
+        ]
+    },
+    {
+        "question": "Change in the fiscal policy can have impact on which of the following?",
+        "answer": 2,
+        "options": [
+            "Current Account in BoP",
+            "Capital Account in BoP",
+            "Both (a) & (b)",
+            "Neither (a) nor (b)"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'counter-cyclical' fiscal policy:",
+        "questionOptions": [
+            "Government uses the counter cyclical policy to cool down the economy during a boom period",
+            "In counter-cyclical policy, government increases spending and reduces taxes during economic slowdown"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Fiscal Consolidation’ policy:",
+        "questionOptions": [
+            "It is an effort by the government to bring down the fiscal deficit",
+            "It is an effort to reduce public debt",
+            "It is an effort to reduce current account deficit",
+            "It is an effort to raise revenues and bring down wasteful expenses"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1, 2 & 3 only",
+            "1, 2 & 4 only",
+            "4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Select the correct statement regarding the term ‘Fiscal Dominance’",
+        "answer": 3,
+        "options": [
+            "Greater influence of fiscal policy in handling the economy as compared to monetary policy",
+            "Fiscal policy creating obstacles in achieving the monetary objectives",
+            "Crowing out of the private sector because of higher government borrowing",
+            "Fiscal considerations limiting the scope for an independent monetary policy"
+        ]
+    },
+    {
+        "question": " As per the Fiscal Responsibility and Budget Management (FRBM) Act 2003, which of the following statement is not presented in the budget sessionof the parliament:",
+        "answer": 3,
+        "options": [
+            "Medium Term Fiscal Policy Statement",
+            "Fiscal Policy Strategy Statement",
+            "Macro-economic Framework Statement",
+            "Medium-term Expenditure Framework Statement"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'Monetisation of Deficit':",
+        "questionOptions": [
+            "RBI purchases government bonds in the primary market",
+            "It is allowed as per FRBM Act 2003 but only under exceptional circumstances",
+            "It may lead to inflation and macroeconomic instability"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following may lead to rupee depreciation:",
+        "questionOptions": [
+            "Expansionary fiscal policy",
+            "Expansionary monetary policy",
+            "Monetisation of Deficit",
+            "Debasement of currency"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "1, 2 & 3 only",
+            "3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Before 1997, the central government used to directly monetise its deficit from RBI",
+            "The primary objective of OMO is to support government borrowing by purchase of govt bonds in the open market"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following statement is true regarding “Tax Base”?",
+        "answer": 3,
+        "options": [
+            "It is the number of taxpayers",
+            "It is the number of people and business units under tax net",
+            "It is the income of people which can be taxed by the government",
+            "It is the aggregate value of financial streams on which tax canbe imposed by the government"
+        ]
+    },
+    {
+        "question": "Which of the following taxes are regressive in nature:",
+        "questionOptions": [
+            "Income Tax",
+            "Sales Tax",
+            "Goods & Services Tax (GST)",
+            "Value Added Tax (VAT)"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 2 only",
+            "2, 3 & 4 only"
+        ]
+    },
+    {
+        "question": "Consider the following with respect to regressive taxation:",
+        "questionOptions": [
+            "It's the taxation system where the tax% is less for the rich and more for the poor",
+            "Inflation Tax is not regressive, rather a proportional tax in nature"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Goods and Services Tax (GST):",
+        "questionOptions": [
+            "Taxes need to be paid at each point in the value chain",
+            "It will have an input tax credit mechanism",
+            "The total taxes will be passed on to the consumers",
+            "It is a value-added tax"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding IGST:",
+        "questionOptions": [
+            "It is levied by the Centre on the inter-state supply of goods",
+            "The IGST rate is equal to CGST plus the SGST/UTGST rate",
+            "The tax revenue is shared equally among the Centre and the consuming State/UT"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the GST Compensation Cess:",
+        "questionOptions": [
+            "It is levied and collected by the Centre",
+            "GST compensation fund has been established in Consolidated Fund of India",
+            "GST Compensation Cess has been extended till March 2026 to compensate States for any shortfall in tax revenue growth below 14%"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": " Which state has got the maximum ‘GST compensation’ from the Centre in the five years period from 1st July 2017 to 30th June 2022:",
+        "answer": 1,
+        "options": [
+            "Uttar Pradesh",
+            "Maharashtra",
+            "Gujarat",
+            "Karnataka"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Goods and Services Tax:",
+        "questionOptions": [
+            "It has led to the harmonization of taxes",
+            "There is no GST levied in the entire supply chain in case of exports"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Central Government levies National Calamity Contingent Duty to finance National Disaster Response Fund (NDRF)",
+            "NDRF has been established under Public Account of India"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding import of goods in India:",
+        "questionOptions": [
+            "They are treated as inter-state supplies for GST",
+            "Customs duty and IGST both are applicable",
+            "Imports are zero-rated"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the 'Electronic - Way Bill':",
+        "questionOptions": [
+            "It is mandatory as per the GST law",
+            "It is required for goods transported worth more than Rs. 50,000/-",
+            "It will check tax evasion"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 4 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the 'Composition Scheme' in GST:",
+        "questionOptions": [
+            "It exempts small taxpayers from payment of GST",
+            "It allows small businesses to pay tax at a fixed per cent of their turnover ",
+            "It reduces the compliance cost for small businesses"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "Which agency deals with the complaints related to GST profiteering?",
+        "answer": 3,
+        "options": [
+            "National Anti-Profiteering Authority",
+            "GST Council",
+            "Central Board of Indirect Taxes and Customs",
+            "Competition Commission of India"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the recommendations of the GST Council:",
+        "questionOptions": [
+            "It will be binding on the Centre and State for tax rate changes or framing of rules under CGST/SGST",
+            "It will not be binding on primary legislation like amendments in CGST/SGST"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "The term ‘Crowd-out’ in an economy is related to which of the following:",
+        "questionOptions": [
+            "Increased public sector spending replaces private-sector spending",
+            "Governments deficit spending through borrowed money leads to hardening of interest rates",
+            "Government spending uses up financial resources that would otherwise, be used by private firms",
+            "Government providing a service or good that would otherwise be a business opportunity for private industry"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "The term ‘Crowd-in’ in the economy is related to which of the following:",
+        "questionOptions": [
+            "Targeted government spending acts as an engine of growth in the short run",
+            "Government spending complements the private investment",
+            "Government spending substitutes the private investment",
+            "Government spending boosts demand for goods which in turn increases private demand"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "1, 2 & 4 only",
+            "1, 3 & 4 only"
+        ]
+    },
+    {
+        "question": " Consider the following statements:",
+        "questionOptions": [
+            "Higher growth rate relative to interest rate makes the debt sustainable",
+            "Long maturity profile of debt reduces the rollover risk"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding inverted duty structure in GST:",
+        "questionOptions": [
+            "It is the result of several tax slabs in our GST structure",
+            "It results in loss of revenue for the government"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding use of Aadhar for benefit transfer:",
+        "questionOptions": [
+            "The money can be drawn only by Central Govt. from the Consolidated Fund of India",
+            "The States can also use Aadhar to transfer benefit from Consolidated Fund of States",
+            "Central government can make Aadhar mandatory for authentication to provide any subsidy",
+            "It can be used for the transfer of benefit to individuals who are residing in India for more than 182 days"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 4 only",
+            "1, 3 & 4 only",
+            "2, 3 & 4 only"
+        ]
+    },
+    {
+        "question": "When a portion of public debt falls due, to the refinancing of public debt being done by",
+        "answer": 0,
+        "options": [
+            "Selling new bonds and using proceeds to pay off holders of maturity bonds",
+            "Extending maturity of debt by raising the interest payable on the rate maturing debt",
+            "Raising taxes to provide funds to repay the maturing bonds",
+            "Print additional paper currency to meet maturing obligations"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding “Deficit Financing”:",
+        "questionOptions": [
+            "It raises aggregate demand in the economy",
+            "It may result in inflation in the economy",
+            "It is used as a developmental tool by developing countries",
+            "It is done by issuing government bonds"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "1, 2 & 3 only",
+            "3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Consolidated Sinking Fund (CSF)’:",
+        "questionOptions": [
+            "The fund is maintained with RBI",
+            "The fund belongs to State Governments",
+            "This fund is used as a buffer for repayment of liabilities"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Inflation acts as a tax in the economy. This tax is",
+        "answer": 2,
+        "options": [
+            "Progressive",
+            "Proportional",
+            "Regressive",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Corporate Income Tax which the government reduced effectively to 25.17%:",
+        "questionOptions": [
+            "It is applicable to domestic companies",
+            "It is applicable only if the companies are not availing various tax exemptions",
+            "The above rate is including Cess and Surcharge"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Equalisation Levy’:",
+        "questionOptions": [
+            "It is a direct tax",
+            "It is imposed as a percentage of the profit",
+            "It is applicable to Non-resident entities "
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "3 only",
+            "1 & 3 only",
+            "1 & 2 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "Once the Global Minimum Corporate Tax becomes effective (let the rate be “GMT”) then",
+        "answer": 3,
+        "options": [
+            "The countries will not be allowed to keep the tax rate below GMT",
+            "A country can keep the tax rate below GMT but the foreign firms operating in that country will have to pay tax to the level of GMT",
+            "A country can keep the tax rate below GMT but the foreign firms operating in that country will have to pay tax to the level of tax rate prevalent in their home country",
+            "A country can keep the tax rate below GMT but the foreign firms operating in that country can be asked to pay the difference between GMT and the country’s tax rate to their home country"
+        ]
+    },
+    {
+        "question": " Which department decides the outlay for Centrally Sponsored Scheme (CSS):",
+        "answer": 1,
+        "options": [
+            "NITI Aayog",
+            "Public Finance Division underDepartment of Expenditure",
+            "Economic Division under Department of Economic Affairs",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Centrally Sponsored Schemes (CSCs):",
+        "questionOptions": [
+            "Central government gives grants to States to implement these schemes",
+            "For the Central government, most of the expenditure on CSCs is revenue expenditure",
+            "Central government transfers the amount to either State Consolidated Fund or directly to State implementing agencies"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the 'Public Finance Management System (PFMS)':",
+        "questionOptions": [
+            "It comes under the office of Controller General of Accounts, Ministry of Finance",
+            "It comes under the Department of Economic Affairs, Ministry of Finance",
+            "It is an end-to-end online solution for processing payments, reconciliation and reporting of Central schemes",
+            "It tracks fund utilization up to the last mile for central schemes"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "1, 3 & 4 only",
+            "2, 3 & 4 only"
+        ]
+    },
+    {
+        "question": "The pool of tax resources of the Union Government which is shared with the States (Vertical Devolution as per FC) is called 'Divisible Pool'. Which of the following are not part of the Divisible Pool:",
+        "questionOptions": [
+            "Cess and Surcharge",
+            "Cost of collection of taxes",
+            "Tax Revenue of the Union Territories ",
+            "National Calamity Contingency Duty"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 4 only",
+            "3 & 4 only",
+            "1, 2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the Fifteenth Finance Commission (FFC) recommendations for 2021 to 2026:",
+        "questionOptions": [
+            "It has recommended a devolution of 41% of the divisible pool from Central taxes to States",
+            "It has recommended ‘State specific grants, based on their special needs’",
+            "It has recommended ‘sector specific grants’ which are mostly performance-based incentives"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which UT/State’s per capita SGDP has been taken as the reference by theFifteenth Finance Commission for calculating the ‘income distance’ for horizontal distribution?",
+        "answer": 1,
+        "options": [
+            "Goa",
+            "Haryana",
+            "Delhi",
+            "Maharashtra"
+        ]
+    },
+    {
+        "question": "“Central Government Debt” includes which of the following:",
+        "questionOptions": [
+            "Outstanding liabilities on the security of the Consolidated Fund of India",
+            "Outstanding liabilities in the Public Account of India",
+            "Off-budget liabilities"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "The Public Debt of the Government of India includes which of the following:",
+        "questionOptions": [
+            "Treasury Bills & Dated securities",
+            "External Commercial Borrowing (ECB)",
+            "NRI deposits",
+            "Foreign Direct Investment in India (FDI)"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "1, 2 & 3 only",
+            "2 & 4 only"
+        ]
+    },
+    {
+        "question": "Which of the following is the largest holder of Public Debt?",
+        "answer": 0,
+        "options": [
+            "Commercial banks",
+            "Provident Funds",
+            "Reserve Bank of India",
+            "Insurance companies"
+        ]
+    },
+    {
+        "question": "Which of the following is part of India’s External Debt:",
+        "questionOptions": [
+            "External Commercial Borrowing (ECB)",
+            "NRI Deposits",
+            "Investments made by Portfolio Investors in debt securities",
+            "Portfolio Investors purchasing government securities"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "4 only",
+            "1, 3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following regarding India’s external debt:",
+        "questionOptions": [
+            "It is around 20% of GDP",
+            "Sovereign Debt is less than 5% of GDP",
+            "Commercial Borrowings have the highest share in India’s external debt"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following is the rupee denominated India’s external debt:",
+        "questionOptions": [
+            "FPIs purchasing corporate and Govt. bonds",
+            "Masala bonds",
+            "Non-Resident External (NRE) deposits in Indian banks"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the currency composition of India’s external debt:",
+        "questionOptions": [
+            "More than 50% of debt is denominated in US dollars",
+            "Less than 10% of debt is denominated in Indian Rupee"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Centre’s accumulated debt is consistently higher than all states combined debt in the last decade",
+            "Out of the total debt of Central Govt., public debt is around 90%",
+            "Public debt is primarily contracted at a fixed interest rate"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding FRBM Act 2003:",
+        "questionOptions": [
+            "RBI generally subscribes to the primary issues of Central government securities",
+            "RBI finances the Central government fiscal deficit",
+            "Central government can take advance from RBI in case there is a mismatch in cash disbursements and cash receipts"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "3 only"
+        ]
+    },
+    {
+        "question": "States need to take prior approval from the Centre for their borrowing:",
+        "questionOptions": [
+            "If they have taken debt from Centre and there are pending dues",
+            "If there is any outstanding loan on State Govt. with respect to which Central Govt. has given a guarantee",
+            "If States are breaching their FRBM targets (every state has enacted their own fiscal responsibility and budget management act)"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "The General Govt. Debt (Centre and States combined) as of 31st March 2022 is",
+        "answer": 2,
+        "options": [
+            "More than the GDP",
+            "Equal to GDP",
+            "Less than 90% of the GDP",
+            "Half of the GDP"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Forex Reserves:",
+        "questionOptions": [
+            "The country’s Forex Reserves fully covers the external debt of India",
+            "The country’s Forex Reserves fully covers its one-year of imports"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Forex Reserves of India",
+        "answer": 0,
+        "options": [
+            "If the foreign currencies other than dollars in our Forex reserve appreciates then Forex reserve will increase",
+            "If the foreign currencies other than dollars in our Forex reserve appreciates then Forex reserve will decrease",
+            "Appreciation/depreciation of Foreign currencies other than dollars (in our forex reserve) do not have any impact on our forex reserves",
+            "Our forex reserves do not include foreign currencies other than dollars"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Net International Investment Position (NIIP)’:",
+        "questionOptions": [
+            "It measures the difference between a nation’s stock of foreign assets and foreigner’s stock of that nation’s assets at a specific point of time",
+            "The FDI inflow in a country will worsen the NIIP position of that country",
+            "It represents the debt and equity service burden",
+            "Increase in our forex reserves will improve NIIP position"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 4 only",
+            "2 & 3 only",
+            "1, 3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": " India’s external liabilities include which of the following:",
+        "questionOptions": [
+            "FDI investment in India",
+            "FPI’s debt and equity investments in India"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the Centre’s Off Budget Borrowings:",
+        "questionOptions": [
+            "These are debts for Central Government",
+            "These are part of the fiscal deficit of Central Govt.",
+            "Principal and interest payment is made by the Central government",
+            "No off-budget borrowings were estimated in 2022-23"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "1, 3 & 4 only"
+        ]
+    },
+    {
+        "question": "The 'Internal and Extra Budgetary Resources' of the Central Public Sector Undertakings (CPSUs) include which of the following:",
+        "questionOptions": [
+            "Profit of the CPSUs",
+            "Domestic and foreign loans raised by the CPSUs"
+        ],
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:"
+    },
+    {
+        "question": "Which of the following statement is true regarding the ‘Scheme for Financial Assistance to States for Capital Investment’ for 2022-23",
+        "answer": 0,
+        "options": [
+            "These are interest-free loans to States",
+            "These are grants to States",
+            "These are within the borrowing limits allowed/ fixed for States",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the “e-assessment scheme”:",
+        "questionOptions": [
+            "It allows faceless assessment of taxpayers",
+            "It is for direct taxpayers",
+            "The national e-assessment centre is based in Mumbai"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 2 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Agriculture Census:",
+        "questionOptions": [
+            "Agriculture Census is conducted quinquennially (at five-year interval) ",
+            "The first Agriculture Census was conducted in 1970-71"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Agriculture GVA at constant prices has steadily increased in the last 5 years",
+            "Horticulture production has surpassed food grain production consistently in the last ten years"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Select the correct code arranging the production of foodgrains in descending order",
+        "answer": 0,
+        "options": [
+            "Rice> Wheat> Coarse grain> Pulses",
+            "Rice >Wheat > Pulses > Coarse grain",
+            "Wheat> Rice> Coarse grain> Pulses",
+            "Wheat> Rice> Pulses> Coarse Grains"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding agriculture trade:",
+        "questionOptions": [
+            "India’s agriculture trade has consistently been in surplus in the last 5 years",
+            "Agriculture exports in value terms has steadily increased in the last 5 years"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which country is the largest exporter of Jute?",
+        "answer": 2,
+        "options": [
+            "India",
+            "Myanmar",
+            "Bangladesh",
+            "China"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding Jute:",
+        "questionOptions": [
+            "National Jute Board has been constituted under an act of parliament to promote jute production and its products",
+            "Govt. mandates the packaging of commodities in jute packaging materials through ‘Jute Packaging Materials Act 1987’"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following factors are taken into account by CACP for recommending MSP of agriculture crops:",
+        "questionOptions": [
+            "Demand and supply",
+            "Price trends in domestic and International markets",
+            "Terms of trade between agriculture and non-agriculture sector",
+            "Inter-crop price parity",
+            "Cost of production",
+            "Likely implications of MSP on the consumers of that product"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "5 only",
+            "1, 2 and 5 only",
+            "2, 3 & 6",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Government declares MSP which is at least 50% over the cost of production. This cost includes:",
+        "questionOptions": [
+            "Actual paid-out cost on rentals",
+            "Rentals forgone on owned land",
+            "Depreciation on agricultural implements",
+            "Actual storage cost post-harvest"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 4 only",
+            "2 & 3 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the procurement of ‘Minor Forest Produce’ at Minimum Support Price:",
+        "questionOptions": [
+            "The MSP is revised every 3 years by the Ministry of Tribal Affairs",
+            "The MSP declared by the Govt. of India acts as a reference MSP and States have the freedom to change it",
+            "Tribal Cooperative Marketing Development Federation of India (TRIFED) acts as the Central Nodal Agency for implementation"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "None of the above",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the Model Agricultural Land Leasing Act 2016:",
+        "questionOptions": [
+            "The model act allows consolidation of farm land",
+            "The duration of lease and the consideration amount is regulated by the government",
+            "The model act does not allow leasing of land for animal husbandry purposes"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding electronic National Agriculture Market (e-NAM):",
+        "questionOptions": [
+            "It will ensure one nation one price of agri commodities for the consumers",
+            "Farmers can sell their agri-produce through e-NAM sitting at their homes without bringing them in the physical APMC mandis"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding organic foods in India:",
+        "questionOptions": [
+            "FSSAI regulates organic foods in India",
+            "Any food to be sold as ‘organic’ in India must be certified through National Program for Organic Production (NPOP)",
+            "‘Jaivik Bharat’ is a logo developed by FSSAI for organic products in India"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'Krishi Vigyan Kendras (KVKs)':",
+        "questionOptions": [
+            "KVKs are completely financed by Govt. of India",
+            "KVKs are financed jointly by Govt. of India and the State governments",
+            "KVKs work as knowledge and resource centre of agricultural technologies to make it available to farmers ",
+            "KVKs produce quality products to make it available to farmers"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "2 & 4 only",
+            "1, 3 & 4 only"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding “Farmer Producer Organization” (FPO):",
+        "questionOptions": [
+            "It can be a company, a cooperative society or any other legal entity",
+            "It should provide sharing of benefits/profit to the farmers",
+            "Ownership control is always with the farmers",
+            "NABARD is providing support for promotion of FPOs"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 4 only",
+            "1, 2 & 4",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'Protection of Plant Varieties and Farmers Rights (PPVFR) Act 2001':",
+        "questionOptions": [
+            "The ‘Breeder’ of the new variety will decide the royalty ",
+            "The farmer is allowed to sell his unbranded farm produce including seed of a variety protected under this act"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding “National Gene Fund”:",
+        "questionOptions": [
+            "It has been established under Protection of Plant Varieties and Farmers Rights Act ",
+            "It has been established under Indian Patent Act ",
+            "It will receive benefit sharing from the breeder"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 2 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "FCI stores the food grains procured for the central pool in the following:",
+        "questionOptions": [
+            "FCI’s own godowns",
+            "Central Warehousing Corporation’s godowns",
+            "State Warehousing Corporation’s godowns",
+            "Godowns hired from the private sector"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1, 2 & 3 only",
+            "2 & 4",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding “Open Market Sale Scheme”",
+        "answer": 1,
+        "options": [
+            "It is done by the Reserve Bank of India to sell Govt. securities",
+            "It is done by the Food Corporation of India to sell the excess stock of food grains",
+            "It is done by Securities and Exchange Board of India (SEBI) to sell shares",
+            "It is done by companies listed on stock exchange to issue shares"
+        ]
+    },
+    {
+        "question": "“Economic Threshold Limit” is related to which of the following?",
+        "answer": 2,
+        "options": [
+            "Potential GDP growth",
+            "Capacity utilization of the economy",
+            "Pest management for crops",
+            "Underground water level"
+        ]
+    },
+    {
+        "question": "The term ‘under-recovery’ was recently in the news, is related to which of the following?",
+        "answer": 1,
+        "options": [
+            "Government spending more on the subsidies than the budgeted amount",
+            "Loss of Oil Marketing Companies (OMCs) in providing fuel at cheaper rate to the public",
+            "Government giving exemptions on certain types of taxes",
+            "Central government getting less repayment on loans given to States"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Urea subsidy:",
+        "questionOptions": [
+            "The subsidy amount is transferred directly into the farmer’s account",
+            "The per kg subsidy amount is fixed and does not change with market fluctuation",
+            "Price of Urea is regulated by the government"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the 'Nutrient Based Subsidy' (NBS) Scheme:",
+        "questionOptions": [
+            "It is given for phosphatic, potassicand complex fertilizers",
+            "It is given for urea",
+            "The prices of fertilizers under nutrient based schemes are regulated by the government",
+            "Subsidy is based on per kg of nutrients present in the fertilizer"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "1 & 4 only",
+            "3 & 4 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Urea fertilizer:",
+        "questionOptions": [
+            "More than 50% of urea is imported in the country",
+            "Urea prices are regulated for the farmers",
+            "Mandatory production of 100% neem quoted urea",
+            "Subsidy amount is transferred to the fertilizer plants based on each plant cost of production"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Liquid Nano Urea’:",
+        "questionOptions": [
+            "Liquid Nano Urea has been developed and Patented by Indian Farmers Fertilizer Cooperative (IFFCO)",
+            "Govt. provides subsidies for liquid nano urea",
+            "Liquid Nano Urea contains 4% nitrogen by volume and needs to be sprayed on the leaves of the crops"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 only",
+            "2 & 3 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘One Nation One Fertilizer Scheme’:",
+        "questionOptions": [
+            "Fertilizers will be sold under the single brand name ‘BHARAT’",
+            "Companies will not be allowed to put their own name on fertilizer bags",
+            "The BHARAT logo has a tractor and drone in its image"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 only",
+            "2 & 3 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": " Arrange the following major subsidies in descending order for as budgeted for the year 2023-24:",
+        "answer": 1,
+        "options": [
+            "Fertilizer > Food > Petroleum",
+            "Food > Fertilizer > Petroleum",
+            "Food > Petroleum > Fertilizer",
+            "Petroleum > Food > Fertilizer"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Kerosene’:",
+        "questionOptions": [
+            "Central Govt. allocates States kerosene for PDS",
+            "Central Govt. does not provide any subsidy on kerosene",
+            "Some states have been declared as Kerosene free states"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 only",
+            "2 & 3 only",
+            "1 & 3",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Minimum Export Price (MEP) is the price below which exports are not permitted",
+            "MEP is imposed to curb the price rise and prevent disruptions in domestic supply",
+            "Minimum Import Price (MIP) is the price below which imports are not allowed",
+            "MIP is imposed to curb imports and protect domestic producers"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "2, 3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Minimum Export Price (MEP)/Minimum Import Price (MIP) restrictions are imposed under “The Foreign Trade (Dev. & Reg.) Act 1992”",
+            "“The Foreign Trade (Dev. & Reg.) Act 1992” can be used to put quantitative restrictions on export/import"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding Central Government’s procurement policy of wheat and rice:",
+        "questionOptions": [
+            "It is an open-ended procurement policy",
+            "Under the centralized procurement policy, all the wheat and rice is procured by FCI",
+            "Under decentralized procurement policy, States procure wheat and rice and distribute under NFSA"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'Warehouse Receipts':",
+        "questionOptions": [
+            "They are issued as per the Warehousing (Development & Regulation) Act ",
+            "Warehousing Development & Regulatory Authority (WDRA) is under the Ministry of Commerce and Industry",
+            "Warehouse receipts are negotiable",
+            "These receipts are govt. recognized and can be used for taking a loan"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "3 & 4 only",
+            "1, 3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the essential commodities under “Essential Commodities Act 1955”:",
+        "questionOptions": [
+            "Central government can put stocking limits on retailers and wholesalers under Essential Commodities Act ",
+            "National Agricultural Cooperative Marketing Federation of India (NAFED) and National Cooperative Consumers Federation of India (NCCF) can provide these commodities at cheaper prices in the markets",
+            "NAFED and NCCF are registered as Multi-State Cooperative Societies"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the SAMPADA scheme:",
+        "questionOptions": [
+            "It is implemented by the Ministry of Agriculture",
+            "It is implemented by the Ministry of consumer affairs, food and public distribution",
+            "It will focus on agro-marine processing"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Pradhan Mantri Matsya Sampada Yojana’:",
+        "questionOptions": [
+            "It is implemented in coastal states and UTs",
+            "The government is providing some percentage of the project cost",
+            "Focuses on the formation of ‘Fish Farmer Producer Organization’",
+            "Focus is on increasing contribution to agriculture GVA and exports"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 and 4 only",
+            "2, 3 & 4 only",
+            "3 & 4 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Operation Greens’:",
+        "questionOptions": [
+            "It is under the Ministry of Food Processing Industries",
+            "NAFED will be the nodal agency to implement it",
+            "It focuses on building post-harvest processing facilities and agri-logistics"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Select the correct statements regarding 'Operation Greens': ",
+        "questionOptions": [
+            "It aims to promote FPOs and value addition",
+            "It provides for short-term and long-term intervention by Govt.",
+            "It is demand-driven and state wise funds are not allocated"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'Agricultural and Processed Food Products Export Development Authority (APEDA)':",
+        "questionOptions": [
+            "It is not a statutory body as it was created through a Govt. resolution",
+            "Established in the early 1990s ",
+            "APEDA is implementing the National Program for Organic Production (NPOP)"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "3 only",
+            "2 and 3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘National Technical Textile Mission’:",
+        "questionOptions": [
+            "The aim is to promote our domestic market through research and development",
+            "The focus is on export promotion of technical textiles"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following facts related to ‘Palm Oil’:",
+        "questionOptions": [
+            "It is the world's most widely used vegetable oil",
+            "Indonesia is the world's biggest producer, exporter and consumer of palm oil."
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘National Edible Oil Mission – Oil Palm’:",
+        "questionOptions": [
+            "The mission has a special focus on Southern Indian",
+            "Price assurance for oil palm farmers",
+            "Special focus on providing the assistance of inputs and interventions",
+            "Presently more than 90% of the crude palm oil is imported"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 and 4 only",
+            "2, 3 & 4 only",
+            "1, 2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Where is ‘Indian Institute of Oil Palm Research (IIOPR)’ located?",
+        "answer": 1,
+        "options": [
+            "Telangana",
+            "Andhra Pradesh",
+            "Tamil Nadu",
+            "Kerala"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Ethanol Blended Petrol’ Programme:",
+        "questionOptions": [
+            "Govt. notifies differential price of ethanol based on different feedstock",
+            "Ethanol price for blending is approved by Cabinet Committee on Economic Affairs",
+            "Govt. has set a target of 20% ethanol blending in petrol by 2025-26"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the followings statements with reference to the ‘Jaivik-kheti portal’:",
+        "questionOptions": [
+            "It is an E-commerce as well as a knowledge platform",
+            "It is an initiative of the Ministry of Agriculture (MoA)",
+            "Through this portal, buyers can avail organic products at their doorstep at much lower prices"
+        ],
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:"
+    },
+    {
+        "question": "Under the National Food Security Act 2013, the expenditure towards intra state transportation and handling charges for movement from FCI depots to Fair Price Shops is borne by",
+        "answer": 2,
+        "options": [
+            "Central Government",
+            "State Government",
+            "Shared between Central and State Government",
+            "Is passed on to the beneficiaries"
+        ]
+    },
+    {
+        "question": "Consider the following Statements regarding under National Food Security Act 2013:",
+        "questionOptions": [
+            "Within a state, transportation and distribution cost is incurred by State Govt.",
+            "The Food subsidy burden is shared equally between Centre and States",
+            "The Central Issue Price (CIP) at which foodgrains are issued to states are decided by FCI",
+            "Presently central govt. is transferring the food to states at zero prices"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2, 3 & 4 only",
+            "3 & 4 only",
+            "4 only"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding ‘Integrated Management of Public Distribution System (IM-PDS)’ scheme:",
+        "questionOptions": [
+            "Its main objective is to introduce nation-wide portability of ration cards under National Food Security Act, ",
+            "National-level de-duplication of all ration cards/beneficiaries’ data",
+            "Integration of State/UTs PDS with Central PDS"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the recently launched ‘Krishi Megh’?",
+        "answer": 2,
+        "options": [
+            "It is an online portal to access agriculture-related weather data",
+            "It is a data recovery centre based in Delhi",
+            "It has been set up to protect the data of the Indian Council of Agricultural Research",
+            "It will have a backup of the Ministry of agriculture and farmers’ welfare data"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Custom Hiring Centre’ (CHC):",
+        "questionOptions": [
+            "Government is establishing CHC under National Mission on Agricultural Extension & Technology",
+            "Government is providing a subsidy on purchase of equipment by CHCs",
+            "CHC provides costly equipment to small farmers on a rental basis"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding National Sample Survey (NSS):",
+        "questionOptions": [
+            "It is conducted by the National Statistical Office (NSO)",
+            "It is a socioeconomic survey conducted annually",
+            "It is conducted on rotating topics"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Match the following regarding how frequently they are conducted:",
+        "questionOptions": [
+            "Periodic Labour Force Survey",
+            "Economic Census",
+            "Consumer Expenditure Survey",
+            "Census",
+            "Decadal",
+            "Quinquennial",
+            "Annual",
+            "No fixed periodicity"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 – 8, 2 – 6, 3 – 7, 4 – 5",
+            "1 – 7, 2 – 8, 3 – 6, 4 – 5",
+            "1 – 8, 2 – 6, 3 – 7, 4 – 5",
+            "1 – 7, 2 – 5, 3 – 8, 4 – 6"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the “Periodic Labour Force Survey”:",
+        "questionOptions": [
+            "It is conducted quinquennially",
+            "It is conducted for both rural and urban labour force",
+            "It collects data for urban labour on a quarterly basis"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Quarterly Employment Survey’:",
+        "questionOptions": [
+            "It is conducted by the labour bureau",
+            "It provides employment scenario from the supply side",
+            "It provides employment updates in both organized and unorganized segments"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "The unemployment caused due to the workers living far from the regions and are unable to move to the locations where jobs are available is an example of",
+        "answer": 2,
+        "options": [
+            "Cyclical",
+            "Frictional",
+            "Structural",
+            "Disguised"
+        ]
+    },
+    {
+        "question": "The unemployment caused due to the workers lacking the requisite job skills is an example of",
+        "answer": 1,
+        "options": [
+            "Cyclical",
+            "Structural",
+            "Frictional",
+            "Disguised"
+        ]
+    },
+    {
+        "question": "In a country, jobs are available but still, people are unemployed as there is a serious mismatch between what companies need and what workers can offer. This kind of unemployment is referred to as",
+        "answer": 1,
+        "options": [
+            "Cyclical",
+            "Structural",
+            "Seasonal",
+            "Frictional"
+        ]
+    },
+    {
+        "question": " A person has left his current job and is looking for another job. He/ she is facing which type of unemployment:",
+        "answer": 2,
+        "options": [
+            "Structural",
+            "Cyclical",
+            "Frictional",
+            "He/ she will not be considered as unemployed"
+        ]
+    },
+    {
+        "question": "An auto worker in Gurgaon lost his job because the company relocated the plant to another country represents an example of",
+        "answer": 1,
+        "options": [
+            "Frictional",
+            "Structural",
+            "Cyclical",
+            "Seasonal"
+        ]
+    },
+    {
+        "question": "In the case of disguised unemployment, which of the following will hold true:",
+        "questionOptions": [
+            "Marginal productivity of capital will be zero",
+            "Productivity of labour will be less"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding an economy facing cyclical unemployment:",
+        "questionOptions": [
+            "It may lead to inflation in the economy",
+            "It may lead to deflation in the economy",
+            "It can be tackled through expansionary monetary policy",
+            "It can be tackled through expansionary fiscal policy"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "1, 3 & 4 only",
+            "2, 3 & 4 only"
+        ]
+    },
+    {
+        "question": "Which of the following are true for underemployment:",
+        "questionOptions": [
+            "Workers in jobs that are not able to utilize their skills",
+            "Workers in low-paying jobs as relative to their skills",
+            "Part-time workers prefer full time jobs",
+            "Productivity of labour is low"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "1, 2 & 3 only",
+            "2, 3 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "'Jobless growth' implies labour is becoming more productive",
+            "If 'employment elasticity' is decreasing that implies labour productivity is increasing"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "'Demographic Dividend' is estimated/calculated in terms of which of the following",
+        "answer": 3,
+        "options": [
+            "Population",
+            "Total Fertility Rate (TFR)",
+            "Working Age to Non-Working Age population ratio",
+            "Additional per capita income growth"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Human capital considers education and health as a means to increase labour productivity",
+            "Under human development, human beings are end in themselves"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding employment elasticity:",
+        "questionOptions": [
+            "It measures the percentage change in economic growth with respect to per percentage increase in employment",
+            "If economic growth is happening because of the increased utilization of capacity, then employment elasticity may be low"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "The term ‘ASEEM’ is related to which of the following?",
+        "answer": 3,
+        "options": [
+            "Online delivery of government services",
+            "An online portal for procurement of goods by MSMEs",
+            "Online platform for procurement of defence items",
+            "A digital portal to map the skills of workers with jobs"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding the ‘e-SHRAM’ portal:",
+        "questionOptions": [
+            "It is under the Ministry of Labour and Employment",
+            "It is for organized as well as unorganized workers",
+            "Insurance coverage is also being provided to workers registered on this portal"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "Which organization publishes the‘Gender Gap Index’?",
+        "answer": 0,
+        "options": [
+            "World Economic Forum",
+            "World Health Organization",
+            "United Nations Development Programme",
+            "International Labour Organization"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Insurance penetration is measured as the percentage of insurance premium to GDP",
+            "Insurance density is measured as the ratio of premium (in US dollars) to total population"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 2 both",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Life insurance business was nationalized in mid-1950s",
+            "Life Insurance Corporation (LIC) was established in the early 1960s"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the statements regarding general insurance sector in India:",
+        "questionOptions": [
+            "The sector was nationalized in 1970’s ",
+            "It was liberalized in the early 1990s ",
+            "Insurance Regulatory and Development Authority (IRDA) was established as a statutory body in 2000"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "2 only"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding ‘replacement level fertility’?",
+        "answer": 2,
+        "options": [
+            "It is the level of fertility at which population remains constant",
+            "It is the level of fertility at which population growth remains constant",
+            "It is the level of fertility at which a population exactly replaces itself from one generation to another",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding India’s Total Fertility Rate (TFR):",
+        "questionOptions": [
+            "It has declined below the ‘replacement level of fertility’",
+            "Since it has gone below the replacement level fertility, the population will stop increasing"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which one of the following statements represent ‘Headcount ratio’?",
+        "answer": 0,
+        "options": [
+            "When the number of poor is estimated as the proportion of people below the poverty line",
+            "When the number of poor is estimated as the proportion of people above the poverty line",
+            "When the number of people is estimated as the proportion of people below the median income of the country",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "The wage rates of MGNREGA workers are revised annually based on which index?",
+        "answer": 0,
+        "options": [
+            "CPI-Agricultural Labourers",
+            "CPI-Rural Labourers",
+            "CPI-Rural",
+            "CPI-Combined"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the newly enacted ‘The Code on Wages 2019’:",
+        "questionOptions": [
+            "There will be a statutory minimum/floor wage which will be applicable for both organized and unorganized sector labours",
+            "This code will not be applicable to MGNREGA wages"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding the newly enacted ‘The Industrial Relations Code 2020’:",
+        "questionOptions": [
+            "Permission will not be required from the government to close a factory if the number of workers are less than ",
+            "Fixed-term employment has been made applicable to all industries"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the newly enacted ‘The Code on Social Security 2020’:",
+        "questionOptions": [
+            "A social security fund is proposed to be established for workers of unorganized sector",
+            "Aggregators will have to contribute a small portion of their turnover which will be used to pay gig and platform workers"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the newly enacted ‘The Occupational Safety, Health and Working Conditions Code 2020’:",
+        "questionOptions": [
+            "An inter-state migrant worker is one whose wages do not exceed Rs. 18,000 per month",
+            "Employment of women has been allowed in all establishments for all types of works and in the night shift also"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "The National Census is conducted by which offices/ agencies",
+        "answer": 2,
+        "options": [
+            "National Statistical Office (NSO)",
+            "Labour Bureau",
+            "Registrar General and Census Commissioner, Ministry of Home Affairs",
+            "Census Bureau of India"
+        ]
+    },
+    {
+        "question": "Which of the following agency conducts ‘Time Use Survey’ in India?",
+        "answer": 0,
+        "options": [
+            "National Statistical Office",
+            "Reserve Bank of India",
+            "Ministry of Labour and Employment",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "World Bank has introduced the concept of ‘Learning Poverty’ which is defined as",
+        "answer": 2,
+        "options": [
+            "Percentage of youth aged 18 and above who cannot read and write a simple text",
+            "Percentage of the children aged 8 and above who are not enrolled in any kind of school education",
+            "Percentage of 10-year-old children who cannot read and understand a simple text",
+            "Percentage of 12-year-old children who cannot read and write a simple text"
+        ]
+    },
+    {
+        "question": "The 'Totalization Agreement' is related to which of the following",
+        "answer": 0,
+        "options": [
+            "Avoiding double taxation of income with respect to social security taxes",
+            "Free market access for trade-in services",
+            "Bilateral agreement between countries to enable unrestricted movement of labour",
+            "Agreement among all the WTO members to promote e-commerce"
+        ]
+    },
+    {
+        "question": "The ‘Logistics Performance Index’ is released by which agency?",
+        "answer": 0,
+        "options": [
+            "World Bank",
+            "UNCTAD",
+            "WTO",
+            "OECD"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Generalized System of Preferences (GSP)’:",
+        "questionOptions": [
+            "Special and differential treatment is offered to developing and least developed countries",
+            "WTO defines developing and least developed countries for offering GSP benefits",
+            "It is offered on a reciprocal basis"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 3 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "As per the 'Agreement on Fisheries Subsidy' as agreed in the 12th MC of WTO held in June 2022 in Geneva, Consider the following statements:",
+        "questionOptions": [
+            "The Agreement will enter into force upon acceptance of its legal instrument by half of the members",
+            "For a period of 2 years, from the date of this Agreement comes into force, subsidies granted by Developing and Least Developed countries within the Exclusive Economic Zones will be exempt from actions",
+            "A funding mechanism will beestablished to provide technical assistance to Developing and Least Developed countries"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding the ‘Compulsory Licenses’ under the Indian Patent Act 1970:",
+        "questionOptions": [
+            "It is given for generic versions of drugs",
+            "It is given during the protection period of the patent",
+            "Manufacturers producing drugs under compulsory license need not pay a royalty to the patent owner"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "3 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding “Financial Action Task Force”:",
+        "questionOptions": [
+            "It is an inter-governmental body of which India is a member",
+            "It has been established to combat money laundering and terrorist financing"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the “Remission of Duties or Taxes on Export Products (RoDTEP)” scheme:",
+        "questionOptions": [
+            "It is a WTO-compliant scheme",
+            "It has replaced Merchandise Exports from India Scheme (MEIS)"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the “Remission of Duties orTaxes on Export Products (RoDTEP)” scheme:",
+        "questionOptions": [
+            "The scheme will reimburse the levies which are currently out of GST regime",
+            "The scheme is for reimbursing the CGST and SGST paid on various products in case of exports",
+            "The scheme will make exports zero-rated"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "The term “Certificates of Origin” is related to which of the following?",
+        "answer": 2,
+        "options": [
+            "It is used in granting visas to individuals",
+            "It is used in the protection of intellectual property rights across the country",
+            "It is used in international trade",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the scheme “Nirvik”?",
+        "answer": 0,
+        "options": [
+            "It is an insurance scheme for the exporters",
+            "It is related to internal security",
+            "It is a subsidy provided by the government",
+            "It is related to MSME credit"
+        ]
+    },
+    {
+        "question": "‘International Debt Statistics’ report is released by which of the following institutions?",
+        "answer": 0,
+        "options": [
+            "World Bank",
+            "IMF",
+            "World Economic Forum",
+            "United Nations Conference on Trade and Development (UNCTAD)"
+        ]
+    },
+    {
+        "question": "“Human Capital Index” is published annually by which of the following agency?",
+        "answer": 0,
+        "options": [
+            "World Bank",
+            "IMF",
+            "UNDP",
+            "WHO"
+        ]
+    },
+    {
+        "question": "‘World Migration Report’ is released by which of the following institution?",
+        "answer": 3,
+        "options": [
+            "World bank",
+            "IMF",
+            "World Economic Forum",
+            "United Nations"
+        ]
+    },
+    {
+        "question": "Which countries are eligible to become member of BRICS Bank",
+        "answer": 1,
+        "options": [
+            "Any Country",
+            "Members of United Nations",
+            "Members of World Bank or IMF",
+            "Any 'developing' country"
+        ]
+    },
+    {
+        "question": " Which of the following is dependent on “QUOTA” assigned by IMF to its member countries:",
+        "questionOptions": [
+            "Financial resources that the member country is obliged to provide IMF",
+            "Voting Rights",
+            "SDR allocation to member countries",
+            "Borrowing capacity of a member country"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 only",
+            "2 & 3 only",
+            "1 & 4 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding Special Drawing Rights (SDR) of IMF:",
+        "questionOptions": [
+            "It is allocated to the member countries based on their economic size",
+            "SDR allocation acts as external debt for the respective country’s Govt.",
+            "SDRs can be held only by Government entities",
+            "It forms part of the Capital Account under Balance of Payment"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1, 2 & 3 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the 'Most Favoured Nation (MFN)' principle of WTO trade:",
+        "questionOptions": [
+            "A member country can grant more favours to the other member country",
+            "MFN is basically a principle of non-discriminatory trade",
+            "Free Trade Agreements have been exempted from the MFN principle"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "Which of the following measures are considered as prohibitive under the Agreement on ‘Trade Related Investment Measures (TRIMS)’ under WTO:",
+        "questionOptions": [
+            "Local content requirement",
+            "Export obligation",
+            "Technology transfer requirement",
+            "Domestic employment"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements is true regarding the issue of imposing customs duty on electronic transmission under the ongoing ‘Doha Development Agenda’?",
+        "answer": 3,
+        "options": [
+            "Member countries have agreed not to impose customs duty on electronic transmission",
+            "Most of the developing countries are demanding a permanent moratorium on imposing customs duty on electronic transmission",
+            "India is in support of permanent moratorium on imposing customs duty on electronic transmission",
+            "There is a moratorium on imposing customs duty on electronic transmission, but it is temporary in nature"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Tariff rate quota’ (TRQ) system",
+        "answer": 0,
+        "options": [
+            "It allows a pre-determined quantity of a product to be imported at lower import duty rates than the duty rate normally applicable to that product",
+            "It allows a pre-determined quantity of a product to be imported at normal import duty and then the duty increases",
+            "It allows only a pre-determinedquantity of a particular product to be imported at a particular tariff",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Which of the following are imposed in case a country’s government is subsidizing its exporters?",
+        "answer": 1,
+        "options": [
+            "Anti-Dumping Duty",
+            "Counter-vailing Duty",
+            "Safeguard Duty",
+            "Customs Duty"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding ‘Safeguard Duty’:",
+        "questionOptions": [
+            "It is a WTO-compliant measure",
+            "It is imposed when there is an increased import of a particular product",
+            "It is imposed as an additional import duty"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Trademarks’:",
+        "questionOptions": [
+            "Trademarks can last for indefinite time period",
+            "Trademarks are assignable",
+            "Protected through ‘Trade Marks Act 1999’"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statementsregarding ‘Trade secrets’:",
+        "questionOptions": [
+            "No registration is required to protect trade secrets",
+            "It can be protected for unlimited time period",
+            "To qualify as a trade secret, the information should have commercial value"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "PM Kisan will fall under “Green Box” in WTO subsidies",
+            "Peace Clause under WTO is still continuing"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Which of the following institution is not part of the World Bank Group?",
+        "answer": 3,
+        "options": [
+            "International Finance Corporation",
+            "The Multilateral Investment Guarantee Agency",
+            "The International Centre for Settlement of Investment Disputes",
+            "Food and Agricultural Organization"
+        ]
+    },
+    {
+        "question": "Which of the following products were given Geographical Indication tag recently:",
+        "questionOptions": [
+            "Chak-Ho of Manipur",
+            "Terracotta of Gorakhpur",
+            "Saffron of Kashmir",
+            "Betel leaf of Tirur"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "“Annual Observance Report” is published by which institution/agency?",
+        "answer": 0,
+        "options": [
+            "IMF",
+            "World Bank",
+            "RBI",
+            "OECD"
+        ]
+    },
+    {
+        "question": "Which agency/institution releases the “Social Mobility Index”?",
+        "answer": 0,
+        "options": [
+            "World Economic Forum",
+            "World Bank",
+            "OECD",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Startups’:",
+        "questionOptions": [
+            "An entity is considered a startup up to a period of 10 years from the date of its incorporation",
+            "Turnover of the entity should not be more than 10 crores in any year since incorporation",
+            "They are included in the priority sector lending"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Recently Parliament passed 'Factoring Regulation (Amendment) Bill, 2021'. Which of the following statements are true regarding ‘factoring’?",
+        "answer": 2,
+        "options": [
+            "It is an unsecured lending facility by banks to generally MSMEs",
+            "Banks provide lending facility where receivables act as collateral",
+            "It is a way to get immediate liquidity by selling receivables",
+            "It is a short-term lending facility by NBFCs to MSMEs"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Retail and wholesale trade are now classified as MSME enterprises",
+            "Retail and wholesale trade are treated as MSME enterprises only for availing priority sector lending benefits",
+            "Street vendors can register on Udyam Registration Portal and avail the benefits of the priority sector lending"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "2 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding ‘National Monetization Pipeline’:",
+        "questionOptions": [
+            "Plans for monetization of core assets of the central government and central PSUs",
+            "The pipeline has been developed by Dept. of Investment and Public Asset Management in consultation with Infrastructure ministries",
+            "Focuses on the privatization of brownfield projects"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Private Label products are sold under the name of specific retailers ",
+            "White Label products are sold by multiple sellers under their brand"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": " Which of the following statements are true regarding 'Production Linked Incentive Scheme':",
+        "answer": 2,
+        "options": [
+            "Govt. is giving incentives as interest subvention for domestic manufacturing units",
+            "Govt is providing a guarantee on loan for domestic manufacturing units",
+            "Govt. is giving incentives on additional sales from domestic manufacturing",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Which of the following sectors have the highest allocation in “National Infrastructure Pipeline” (NIP)?",
+        "answer": 0,
+        "options": [
+            "Energy",
+            "Road",
+            "Rail",
+            "Urban"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding “National Pharmaceuticals Pricing Authority” (NPPA):",
+        "questionOptions": [
+            "It is under the Ministry of Health and family welfare",
+            "It fixes/revises the prices of controlled drugs",
+            "It implements the provisions of Drug Price Control Order (DPCO) "
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the 'Zero Defect, Zero Effect (ZED)' scheme:",
+        "questionOptions": [
+            "The scheme is for the MSME sector",
+            "It ensures producing high-quality manufacturing products ",
+            "It ensures minimal negative impact on the environment.",
+            "It is a cornerstone of the flagship Make in India programme"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 4 only",
+            "2 & 3 only",
+            "1, 2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the \"Common Services Centre (CSC)\":",
+        "questionOptions": [
+            "They are part of Digital India programme",
+            "They are implemented in public private partnership modal",
+            "They act as access points for delivery of various electronic services"
+        ],
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "2 & 3 only",
+            "All of the above"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:"
+    },
+    {
+        "question": "Which of the following are part of the 'Index of Industrial Production (IIP)':",
+        "questionOptions": [
+            "Mining and quarrying",
+            "Electricity generation",
+            "Construction",
+            "Forestry"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1, 2 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "‘Industrial Outlook Survey’ is conducted by",
+        "answer": 1,
+        "options": [
+            "Ministry of Commerce and Industry",
+            "RBI",
+            "National Statistical Office",
+            "Dept. of Economic Affairs"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the 'Open Acreage Licensing Policy (OALP)':",
+        "questionOptions": [
+            "The policy is for oil and gas sector",
+            "Any private developer can participate without experience of oil and gas sector",
+            "Private players can suggest to Government to put specific blocks on bid",
+            "The policy is a part of the New Exploration Licensing Policy"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "2 & 4 only"
+        ]
+    },
+    {
+        "question": "The term 'Graded Surveillance Measure' recently seen in the news is related to which of the following",
+        "answer": 1,
+        "options": [
+            "Security of Indian coastal areas",
+            "Companies listed on stock exchanges",
+            "ISRO's satellite programme",
+            "IMF monitoring various economies"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Core Industries’:",
+        "questionOptions": [
+            "It comprises of around 40% of the weight of items included in Index of Industrial production (IIP)",
+            "Fertilizers have the lowest weight in Core Industries index"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": " Which of the following statements are not correct regarding 'Shell Companies':",
+        "answer": 2,
+        "options": [
+            "They are generally involved in money laundering and tax avoidance activities",
+            "They generally do not hold any assets in real",
+            "They are defined as illegal entities as per the Company Act 2013",
+            "They do not have any active business operations"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding 'Invest India':",
+        "questionOptions": [
+            "It is a non-profit agency",
+            "It is an agency under Dept. of Economic Affairs"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "The term “Open access” in electricity means which of the following",
+        "answer": 0,
+        "options": [
+            "Consumers have access to the transmission and distribution network to obtain electricity from the suppliers of their choice",
+            "Consumers can choose the distribution company of their choice",
+            "Any consumer of electricity can also generate electricity from their own resource and can feed on to the distribution network.",
+            "Distribution companies can choose from which of the power producers they want to purchase power without government interference"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding “Swiss challenge”?",
+        "answer": 1,
+        "options": [
+            "It is a game",
+            "It is a method of awarding projects by the government",
+            "It is related to lottery business",
+            "None of the above"
+        ]
+    },
+    {
+        "question": "Recently Government of India launched ‘CHAMPIONS’ online platform which is related to",
+        "answer": 1,
+        "options": [
+            "Export",
+            "MSMEs",
+            "Start-ups",
+            "Banks"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding “Concessional Finance Scheme”:",
+        "questionOptions": [
+            "Under the scheme, projects are selected by the Ministry of External Affairs",
+            "Under the scheme, Govt. of India gives a 2% interest subsidy",
+            "The scheme is operated through EXIM Bank of India"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "1 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Arrange the following in the correct the correct chronological order i.e., theone which was established as a statutory body first should come first in the order:",
+        "questionOptions": [
+            "Pension Fund Regulatory Development Authority (PFRDA)",
+            "Insurance Regulatory and Development Authority of India (IRDAI)",
+            "Securities and Exchange Board of India (SEBI)"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "2 – 1 - 3",
+            "3 – 2 – 1",
+            "1 – 2 – 3",
+            "2 – 3 – 1"
+        ]
+    },
+    {
+        "question": "As per SEBI, minimum 'Public Shareholding' (the shares which are traded on the stock exchange) for listed companies is",
+        "answer": 2,
+        "options": [
+            "5%",
+            "10%",
+            "25%",
+            "35%"
+        ]
+    },
+    {
+        "question": "Recently which stock exchange has got the approval from SEBI to set up a Social Stock Exchange?",
+        "answer": 0,
+        "options": [
+            "National Stock Exchange",
+            "Bombay Stock Exchange",
+            "Delhi Stock Exchange",
+            "Multi Commodity Exchange of India"
+        ]
+    },
+    {
+        "question": "What do you understand by the term “Circular Economy” is often seen in news?",
+        "answer": 0,
+        "options": [
+            "It refers to an industrial system that is restorative or regenerative in nature",
+            "It refers to the cyclical booms and recession in an economy",
+            "It refers to a “Closed Economy” that primarily relies on internal trade",
+            "It refers to a system in which there is Cyclical correlation between savings and investment"
+        ]
+    },
+    {
+        "question": " Consider the following statements regarding the newly launched 'Toll-Operate-Transfer (TOT)' model in the road sector:",
+        "questionOptions": [
+            "Toll revenue collection rights are auctioned to private players for long term",
+            "Toll revenue needs to be shared with the government authority",
+            "Already constructed roads are given to private players"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 3 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Nuclear energy generation capacity share is less than 10%",
+            "Renewable energy generation capacity share is more than 25%"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Renewable Energy Certificates (REC) are traded on Indian Energy Exchange and Power Exchange of India",
+            "Ministry of Power in consultation with the Ministry of New and Renewable Energy sets target every year for Renewable Purchase Obligation (RPO) for all States/UTs"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "Indian Gas Exchange is a wholly owned subsidiary of Indian Energy Exchange",
+            "Indian Gas Exchange is an online delivery-based gas trading platform"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements:",
+        "questionOptions": [
+            "India is the biggest coal producer country in the world",
+            "India is the second biggest coal consumer country in the world",
+            "India has become a net exporter in coal"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 0,
+        "options": [
+            "2 only",
+            "1 & 2 only",
+            "2 & 3 only",
+            "3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘National Investment and Infrastructure Fund’ (NIIF):",
+        "questionOptions": [
+            "It is meant for both greenfield and brownfield project",
+            "It will invest in infrastructure projects and infrastructure financing companies",
+            "It will raise funds from both domestic and international sources"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "2 only",
+            "2 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding Universal Service Obligation Fund (USOF):",
+        "questionOptions": [
+            "This fund is under Dept. of Telecommunication",
+            "This fund is used to provide ICT services in rural and remote areas",
+            "This fund is created out of the budgetary resources of Govt. of India"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 only",
+            "1 & 2 only",
+            "3 only",
+            "2 & 3 only"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the SFURTI scheme:",
+        "questionOptions": [
+            "It is implemented by the Ministry of MSME",
+            "It promotes cluster-based development"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "The main objectives of setting up Special Economic Zones (SEZ) are:",
+        "questionOptions": [
+            "Generation of additional economic activity",
+            "Promotion of investment from foreign sources",
+            "Creation of employment opportunities"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 3 only",
+            "1 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true with reference to Special Economic Zones (SEZ):",
+        "questionOptions": [
+            "SEZ units may import/procure goods and services from Domestic Tariff Area (DTA) without payment of customs/import duty",
+            "Customs duty is imposed on the sale from SEZ to DTA",
+            "SEZ units should be net foreign exchange earners"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "1 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": " Which of the following agency/ministry regulates tariffs for aeronautical services at majorairports:",
+        "answer": 1,
+        "options": [
+            "Airport Authority of India (AAI)",
+            "Airport Economic Regulatory Authority (AERA)",
+            "Directorate General of Civil Aviation (DGCA)",
+            "Ministry of Civil Aviation"
+        ]
+    },
+    {
+        "question": "Credit Rating Agencies are regulatedby which ministry/department/agency?",
+        "answer": 1,
+        "options": [
+            "Reserve Bank of India",
+            "Securities and Exchange Board of India",
+            "Ministry of Corporate Affairs",
+            "Ministry of Finance"
+        ]
+    },
+    {
+        "question": "Which of the following statements are true regarding the term ‘Force Majeure’ which was recently in the news:",
+        "questionOptions": [
+            "It is generally treated as a breach of contract",
+            "Unforeseeable circumstances that prevent someone from fulfilling a contract",
+            "Includes an Act of God or natural disasters, war or war-like situations, epidemics, pandemics, etc."
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Emergency Credit Line Guarantee Scheme’ launched under the Aatma Nirbhar Bharat package:",
+        "questionOptions": [
+            "Its focus is on MSMEs",
+            "Government agencies will provide a credit guarantee",
+            "It is a pre-approved loan scheme"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 & 2 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Formalization of Micro Food Processing Enterprises’ Scheme under Aatma Nirbhar Bharat:",
+        "questionOptions": [
+            "Govt. is providing credit linked capital subsidy ",
+            "It promotes ‘One District One Product approach’",
+            "The scheme focuses on Aspirational Districts"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 2 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Agriculture Infrastructure Fund’ set up under Aatma Nirbhar Bharat:",
+        "questionOptions": [
+            "It is a debt financing facility for investment in post-harvestmanagement infrastructure",
+            "The fund will be used to provide interest subvention on loans",
+            "The fund will be used to provide credit guarantee"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the ‘Animal Husbandry Infrastructure Development Fund’ under Aatma Nirbhar Bharat:",
+        "questionOptions": [
+            "It will incentivize FPOs and MSMEs to establish dairy and meat processing infrastructure",
+            "The fund will provide interest subvention to eligible beneficiaries "
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 2,
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 & 2",
+            "Neither 1 nor 2"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding ‘Modified Interest Subvention Scheme’ for farmers:",
+        "questionOptions": [
+            "Banks provide loans to farmers at 7% interest rate",
+            "It is for short-term credit needs of farmers",
+            "If farmers make timely payments,then the interest rate will come down to 4%"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 3,
+        "options": [
+            "1 only",
+            "2 & 3 only",
+            "1 & 3 only",
+            "All of the above"
+        ]
+    },
+    {
+        "question": "Consider the following statements regarding the philosophy of Aatma Nirbhar Bharat:",
+        "questionOptions": [
+            "It promotes self-sufficiency through import substitution",
+            "Producing goods where we have comparative advantage and importing goods where we do not have that advantage",
+            "Liberalizing the economy and giving more space to the private sector",
+            "Restricting foreign capital"
+        ],
+        "questionDirection": "Select the correct answer using the code given below:",
+        "answer": 1,
+        "options": [
+            "1 & 3 only",
+            "2 & 3 only",
+            "2, 3 & 4 only",
+            "1 & 4 only"
+        ]
+    },
+    {
+        "question": "In Aatma Nirbhar Bharat, the economy has to move from ‘command and control’ to ‘plug and play’. In this statement, ‘plug and play’ refers to",
+        "answer": 1,
+        "options": [
+            "Government will be playing a leading role in the economic growth process",
+            "Government will provide a policy and other support to pull-in private sector",
+            "Government will provide red carpet for foreign investors",
+            "Government will provide digital infrastructure for the economy"
+        ]
     }
 ]
 
