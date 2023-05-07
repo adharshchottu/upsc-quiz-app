@@ -1,3 +1,8 @@
+export type quotes = {
+    quote: string;
+    quoter: string;
+};
+
 export const quotes = [
     {
         "quote": "The weak can never forgive; forgiveness is the attribute of strong.",
@@ -380,7 +385,7 @@ export const quotes = [
     {
         "quote": "Forgive your enemies, but never forget their names.",
         "quoter": "John F. Kennedy"
-    }, 
+    },
     {
         "quote": "Mankind must put an end to war – or war will put an end to mankind.",
         "quoter": "John F. Kennedy"
@@ -404,7 +409,7 @@ export const quotes = [
     {
         "quote": "“The supreme reality of our time is the vulnerability of our planet.",
         "quoter": "John F. Kennedy"
-    }, 
+    },
     {
         "quote": "Without debate, without criticism no administration and no country can succeed and no republic can survive.",
         "quoter": "John F. Kennedy"
