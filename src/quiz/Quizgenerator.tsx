@@ -2,7 +2,7 @@ import { DataSet } from "../data/dataset";
 import seedrandom from 'seedrandom';
 
 const Quizgenerator = (dataset: DataSet[], index: number) => {
-    function shuffleArray(array:DataSet[]) {
+    function shuffleArray(array: DataSet[]) {
         const seed = Math.floor(Date.now() / (10 * 60 * 1000)); // seed based on current time every 10 minutes
         const random = seedrandom(seed.toString()); // use seedrandom library for consistent random numbers
 
@@ -14,7 +14,12 @@ const Quizgenerator = (dataset: DataSet[], index: number) => {
         return array;
     }
 
-    const shuffledDataSet = shuffleArray(dataset);
+    const dataSetWithIndex = dataset.map((d, i) => {
+        return { ...d, index: i }
+    })
+        
+
+    const shuffledDataSet = shuffleArray(dataSetWithIndex);
     const itemIndex = index;
     const generateRandomString = (length: number) => {
         let result = '';
@@ -27,7 +32,7 @@ const Quizgenerator = (dataset: DataSet[], index: number) => {
     }
     const randomString = generateRandomString(6);
     const hashedOptions = shuffledDataSet[itemIndex].options.map(d => `${d}-${randomString}`)
-    return { ...dataset[itemIndex], "randomString": randomString, "options": hashedOptions }
+    return { ...dataSetWithIndex[itemIndex], "randomString": randomString, "options": hashedOptions }
 }
 
 export default Quizgenerator
