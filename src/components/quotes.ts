@@ -793,5 +793,65 @@ export const quotes = [
     {
         "quote": "On matters of style, swim with the current, on matters of principle stand like a rock.",
         "quoter": "Thomas Jefferson"
+    },
+    {
+        "quote": "You have to be grow from the inside out. None can teach you; none can make your spiritual. There is no other teacher but your own soul.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "The basis of all systems social or political rests upon the godness of man. No nation is great or good because parliament enacts this or that, but because its men are great and good.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "In a conflict between the heart and the brain, follow your heart.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "we are what our thoughts have made us; so, take care about what you think. Words are secondary. Thoughts live; they travel far.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "They alone live, who live for others.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "Strength is life, Weakness is Death. Expansion is Life, Contraction is Death. Love is life, Hatred is Death.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "Each work has to pass through these stages -- ridicule, opposition, and then acceptance. Those who think ahead of thier time are sure to be misunderstood.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "Education is the manifestation of perfection already existing in man.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "Truth can be stated in a thousand different ways, yet each one can be true.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "So long as there is desire or want, it is a sure sign that there is imperfection. A perfect, free being cannot have any desire.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "The essence of Vedanta is that there is but one Being and that every soul is that Being in full, not a part of that Being.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "Stand as a rock; you are indestructible. You are the self, the god of the universe.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "Purity, patience and perseverance are three essentials to success and, above all, love.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "Anything that makes weak -- physically, intellectually and spiritually, reject it as poison.",
+        "quoter": "Swami Vivekananda"
+    },
+    {
+        "quote": "A few heart-whole, sincere, and energetic men and women can do more in a year than a mob in a century.",
+        "quoter": "Swami Vivekananda"
     }
 ]
