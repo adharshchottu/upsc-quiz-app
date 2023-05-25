@@ -21,10 +21,12 @@ const Home: React.FC = () => {
             <Button colorScheme='orange'>History</Button>
           </WrapItem>
         </Link> */}
-        {/* <WrapItem>
-          <Button colorScheme='yellow'>Yellow</Button>
-        </WrapItem> */}
-       {/*  <Link to={"/environment"}>
+        <Link to={"/geography"}>
+          <WrapItem>
+            <Button colorScheme='yellow'>Geogrpahy</Button>
+          </WrapItem>
+        </Link>
+        {/*  <Link to={"/environment"}>
           <WrapItem>
             <Button colorScheme='green'>Environment</Button>
           </WrapItem>

@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import { Box } from '@chakra-ui/react'
 import Articles from './pages/Articles'
 import History from './pages/History'
+import Geography from './pages/Geography'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/economics" element={<Economics />} />
           <Route path="/articles" element={<Articles />} />
           <Route path="/history" element={<History />} />
+          <Route path="/geography" element={<Geography />} />
         </Routes>
       </Box>
       <Footer />
