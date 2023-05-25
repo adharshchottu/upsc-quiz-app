@@ -7,14 +7,15 @@ type handleChangeType = (event: React.ChangeEvent<HTMLInputElement>) => void;
 type HandleOptionChange = (option: string) => void;
 type Props = {
     data: DataSet[];
+    showQN?: boolean;
 };
 
 
-const Question = (question: DataSet["question"], index: number, options?: DataSet["options"], questionDirection?: DataSet["questionDirection"]) => {
+const Question = (question: DataSet["question"], index: number, options?: DataSet["options"], questionDirection?: DataSet["questionDirection"], showQN?: boolean) => {
     return (
         <Box>
             <Heading size='md'>
-                <Text>Q({index+1}) {question}</Text>
+                <Text>{showQN && `Q(${index + 1})`} {question}</Text>
             </Heading>
             {
                 options && <OrderedList p={3}>
@@ -43,11 +44,11 @@ const Options = (option: string, handleChange: handleChangeType, handleOptionCha
     </Box>
 }
 
-const Quiz: React.FC<Props> = ({ data }) => {
+const Quiz: React.FC<Props> = ({ data, showQN }) => {
     const [optionChecked, setOptionChecked] = useState(false);
     const [answerChecked, setAnswerChecked] = useState(false);
     const [quizData, setQuizData] = useState(Quizgenerator(data, 0));
-    const [quizCount, setQuizCount] = useState(0);
+    const [quizCount, setQuizCount] = useState(1);
     const [selectedOption, setSelectedOption] = useState<string | null>(null);
 
     const handleChange: handleChangeType = (event) => {
@@ -83,9 +84,9 @@ const Quiz: React.FC<Props> = ({ data }) => {
         document.querySelectorAll(".optionsBox").forEach((d) => (d as HTMLElement).style.backgroundColor = "");
     }
 
-    return <Card m={5}>
+    return <Card m={5} key={quizCount}>
         <CardHeader>
-            {Question(quizData.question, quizData.index, quizData.questionOptions, quizData.questionDirection)}
+            {Question(quizData.question, quizData.index, quizData.questionOptions, quizData.questionDirection, showQN)}
         </CardHeader>
 
         <CardBody>
