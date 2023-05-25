@@ -32,7 +32,7 @@ const Economics: React.FC = () => {
       </center>)
     }
     {
-      data && <Quiz data={data} />
+      data && <Quiz data={data} showQN={true} />
     }
   </Box>;
 };
