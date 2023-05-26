@@ -26,8 +26,8 @@ const DistrictQuizGenerator = (districtsData: Map<string, string[]> | null) => {
         // Create an empty set to store the pairs
         const pairsSet: Set<string[]> = new Set();
 
-        // Loop until the set size is 5
-        while (pairsSet.size < 100) {
+        // Loop until the set size is off all districts
+        while (pairsSet.size < 300) {
             // Get a random state from the map keys
             const states = [...districtsData.keys()];
             const state = states[Math.floor(Math.random() * states.length)];
