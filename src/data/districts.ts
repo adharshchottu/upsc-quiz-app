@@ -29,4 +29,12 @@ const districtsMap: Map<string, string[]> = new Map([
     ["Himachal Pradesh", ["Bilaspur", "Chamba", "Hamirpur", "Kangra", "Kinnaur", "Kullu", "Lahaul and Spiti", "Mandi", "Shimla", "Sirmaur", "Solan", "Una"]]
 ]);
 
-export default districtsMap
+const UTdistrictsMap: Map<string, string[]> = new Map([
+    ["Dadra and Nagar Haveli and Daman & Diu", ["Dadra and Nagar Haveli", "Daman", " Diu"]],
+    ["Jammu & Kashmir", ["Jammu", "Kathua", "Samba", "Udhampur", "Reasi", "Rajouri", "Poonch", "Ramban", "Doda", "Kishtwar", "Srinagar", "Anantnag", "Kulgam", "Pulwama", "Shopian", "Budgam", "Ganderbal", "Bandipora", "Baramulla", "Kupwara"]],
+    ["Ladakh", ["Leh", "Kargil"]],
+    ["Puducherry", ["Puducherry", "Karaikal", "Yanam", "Mahé"]],
+    ["Lakshadweep", ["Agatti", "Amini", "Andrott", "Bitra", "Chetlat", "Kadmat", "Kalpeni", "Kavaratti", "Kiltan", "Minicoy"]],
+    ["Andaman and Nicobar", ["Diglipur", "Mayabunder", "Rangat", "Port Blair", "Ferrargunj", "Little Andaman", "Bambooflat", "Prothrapur", "Car Nicobar", "Teressa", "Katchal", "Nancowry", "Kamorta", "Great Nicobar", "Little Nicobar"]]
+]);
+export { UTdistrictsMap, districtsMap }
