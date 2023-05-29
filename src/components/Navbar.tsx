@@ -6,9 +6,9 @@ const Daysleft = () => {
     // days left
     const oneDay = 24 * 60 * 60 * 1000;
     const today: any = new Date();
-    const examDate: any = new Date(2023, 4, 27);
+    const examDate: any = new Date(2023, 8, 14);
     const examDays = Math.round((examDate - today) / oneDay);
-    const examName = "prelims";
+    const examName = "mains";
 
 
     return <>
