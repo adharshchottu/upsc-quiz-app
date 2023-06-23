@@ -4,6 +4,7 @@ export type DataSet = {
   options: string[];
   questionOptions?: string[];
   questionDirection?: string;
+  detailedAnswer?: string[][];
 };
 
 export type Articles = {
