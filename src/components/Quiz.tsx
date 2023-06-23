@@ -37,7 +37,7 @@ const Options = (option: string, handleChange: handleChangeType, handleOptionCha
     const unHashedOption = option.replace(pattern, "")
     return <Box p={3} key={option} onClick={() => handleOptionChange(option)} className="optionsBox">
         <Radio size='lg' name='options' colorScheme='blue' value={option} onChange={handleChange}>
-            <Text fontSize='sm'>
+            <Text fontSize='sm' className="quizOptionsTextClass">
                 {unHashedOption}
             </Text>
         </Radio>
@@ -72,6 +72,11 @@ const Quiz: React.FC<Props> = ({ data, showQN }) => {
             const answerBox = document.querySelector(`input[name="options"][value="${answer}"]`)?.parentElement;
             (answerBox?.parentNode as HTMLElement).style.backgroundColor = "var(--chakra-colors-green-400)";
             setAnswerChecked(true);
+            document.querySelectorAll(".quizOptionsTextClass").forEach((element, i) => {
+                if (quizData.detailedAnswer?.length) {
+                    element.textContent = `${quizData.detailedAnswer[i][1]} - ${quizData.detailedAnswer[i][0]}`
+                }
+            })
         }
     };
 
