@@ -894,6 +894,36 @@ const articlesHighlightDataSet: Articles[] = [
         "articleNo": "151",
         "article": `Audit reports.`,
         "part": "V"
+    },
+    {
+        "articleNo": "324",
+        "article": `Superintendence, direction and control of elections to be vested in an Election Commission`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "325",
+        "article": `No person to be ineligible for inclusion in, or to claim to be included in a special, electoral roll on grounds of religion, race, caste or sex`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "326",
+        "article": `Elections to the House of the People and to the Legislative Assemblies of States to be on the basis of adult suffrage`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "327",
+        "article": `Power of Parliament to make provision with respect to elections to Legislatures`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "328",
+        "article": `Power of Legislature of a State to make provision with respect to elections to such Legislature`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "329",
+        "article": `Bar to interference by courts in electoral matters`,
+        "part": "XV"
     }
 ]
 

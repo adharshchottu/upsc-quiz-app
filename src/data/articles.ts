@@ -1169,6 +1169,81 @@ const articlesDataSet: Articles[] = [
         "articleNo": "107(5)",
         "article": "A Bill which is pending in the House of the People, or which having been passed by the House of the People is pending in the Council of States, shall, subject to the provisions of article 108, lapse on a dissolution of the House of the People.",
         "part": "V"
+    },
+    {
+        "articleNo": "324(1)",
+        "article": "The superintendence, direction and control of the preparation of the electoral rolls for, and the conduct of, all elections to Parliament and to the Legislature of every State and of elections to the offices of President and Vice-President held under this Constitution shall be vested in a Commission (referred to in this Constitution as the Election Commission).",
+        "part": "XV"
+    },
+    {
+        "articleNo": "324(2)",
+        "article": "The Election Commission shall consist of the Chief Election Commissioner and such number of other Election Commissioners, if any, as the President may from time to time fix and the appointment of the Chief Election Commissioner and other Election Commissioners shall, subject to the provisions of any law made in that behalf by Parliament, be made by the President.",
+        "part": "XV"
+    },
+    {
+        "articleNo": "324(3)",
+        "article": "When any other Election Commissioner is so appointed the Chief Election Commissioner shall act as the Chairman of the Election Commission.",
+        "part": "XV"
+    },
+    {
+        "articleNo": "324(4)",
+        "article": "Before each general election to the House of the People and to the Legislative Assembly of each State, and before the first general election and thereafter before each biennial election to the Legislative Council of each State having such Council, the President may also appoint after consultation with the Election Commission such Regional Commissioners as he may consider necessary to assist the Election Commission in the performance of the functions conferred on the Commission by clause (1).",
+        "part": "XV"
+    },
+    {
+        "articleNo": "324(5)",
+        "article": `Subject to the provisions of any law made by Parliament, the conditions of service and tenure of office of the Election Commissioners and the Regional Commissioners shall be such as the President may by rule determine:
+            Provided that the Chief Election Commissioner shall not be removed from his office except in like manner and on the like grounds as a Judge of the Supreme Court and the conditions of service of the Chief Election Commissioner shall not be varied to his disadvantage after his appointment:
+            Provided further that any other Election Commissioner or a Regional Commissioner shall not be removed from office except on the recommendation of the Chief Election Commissioner.`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "324(6)",
+        "article": "The President, or the Governor of a State, shall, when so requested by the Election Commission, make available to the Election Commission or to a Regional Commissioner such staff as may be necessary for the discharge of the functions conferred on the Election Commission by clause (1).",
+        "part": "XV"
+    },
+    {
+        "articleNo": "325",
+        "article": `There shall be one general electoral roll for every territorial constituency for election to either House of Parliament or to the 
+        House or either House of the Legislature of a State and no person shall be ineligible for inclusion in any such roll or claim to be included 
+        in any special electoral roll for any such constituency on grounds only of religion, race, caste, sex or any of them.`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "326",
+        "article": `The elections to the House of the People and to the Legislative Assembly of every State shall be on the basis of adult suffrage; 
+        that is to say, every person who is a citizen of India and who is not less than eighteen years of age on such date as may be fixed in that behalf 
+        by or under any law made by the appropriate Legislature and is not otherwise disqualified under this Constitution or any law made by the appropriate 
+        Legislature on the ground of non-residence, unsoundness of mind, crime or corrupt or illegal practice, shall be entitled to be registered as a voter at any such election.`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "327",
+        "article": `Subject to the provisions of this Constitution, Parliament may from time to time by law make provision with respect to all matters relating to, 
+        or in Connection with, elections to either House of Parliament or to the House or either House of the Legislature of a State including the preparation of 
+        electoral rolls, the delimitation of constituencies and all other matters necessary for securing the due constitution of such House or Houses.`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "328",
+        "article": `Subject to the provisions of this Constitution and in so far as provision in that behalf is not made by Parliament, the Legislature 
+        of a State may from time to time by law make provision with respect to all matters relating to, or in connection with, the elections to the House 
+        or either House of the Legislature of the State including the preparation of electoral rolls and all other matters necessary for securing the due 
+        constitution of such House or Houses.`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "329(a)",
+        "article": `Notwithstanding anything in this Constitution the validity of any law relating to the delimitation of constituencies or the allotment 
+        of seats to such constituencies, made or purporting to be made under article 327 or article 328, shall not be called in question in any court;`,
+        "part": "XV"
+    },
+    {
+        "articleNo": "329(b)",
+        "article": `Notwithstanding anything in this Constitution no election to either House of Parliament or to the House or either House of the Legislature 
+        of a State shall be called in question except by an election petition presented to such authority and in such manner as may be provided for by or under 
+        any law made by the appropriate Legislature.`,
+        "part": "XV"
     }
 ]
 
