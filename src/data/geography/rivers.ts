@@ -243,6 +243,72 @@ const rivers: Map<string, River> = new Map([
         states: ["Meghalaya"],
         countries: ["Bangladesh"],
         mainstem: "Meghna"
+    }],
+    ["Narmada", {
+        source: "Amarkantak Plateau",
+        states: ["Madhya Pradesh", "Maharastra", "Gujarat"],
+        tributaries: ["Hiran", "Barna", "Kolar", "Man", "Uri", "Hatni", "Orsang", "Sher", "Shakkar", "Dudhi", "Tawa", "Ganjal", "Chotta Tawa", "Kundi", "Goi", "Karjan"],
+        mouth: "Bharuch"
+    }],
+    ["Tapi", {
+        source: "Multai",
+        states: ["Madhya Pradesh", "Maharastra", "Gujarat"],
+        mouth: "Hazira Mangrove(Surat)",
+        tributaries: ["Vaki", "Gomai", "Arunavati", "Aner", "Nesu", "Amravati", "Buray", "Panjhra", "Bori", "Girna", "Waghur", "Purna", "Mona", "Sipna"]
+    }],
+    ["Mahi", {
+        source: "western Vindhya Range",
+        states: ["Madhya Pradesh", "Rajasthan", "Gujarat"],
+        mouth: "Gulf of Khambat",
+        tributaries: ["Som", "Anas", "Panam", "Bhadar", "Kun", "Goma"]
+    }],
+    ["Sabarmathi", {
+        source: "Tepur",
+        states: ["Rajasthan", "Gujarat"],
+        mouth: "Gulf of Khambat",
+        tributaries: ["Wakal", "Harnva", "Hathmati", "Khari", "Watrak", "Sei", "Siri", "Dhamni"]
+    }],
+    ["Mahanadi", {
+        source: "Sihawa",
+        states: ["Chattisgarh", "Odisha"],
+        mouth: "Mahanadi Delta",
+        tributaries: ["Seonath", "Hasdeo", "Mand", "Ib", "Ong", "Tel", "Jonk"]
+    }],
+    ["Godavari", {
+        source: "Trimbakeshwar",
+        states: ["Maharastra", "Telangana", "Chattisgarh", "Andra Pradesh"],
+        mouth: "Godavari Delta",
+        tributaries: ["Pranhita", "Indravati", "Purna", "Sabari", "Pravara", "Manjira", "Manair"]
+    }],
+    ["Krishna", {
+        source: "Mahabaleshwar",
+        states: ["Maharastra", "Karnataka", "Telangana", "Andra Pradesh"],
+        mouth: "Diviseema",
+        tributaries: ["Ghataprabha", "Malaprabha", "Venna", "Dhudhganga", "Panchganga", "Bhima", "Musi", "Muneru", "Maner", "Peddavagu", "Halia"]
+    }],
+    ["Cauvery", {
+        source: "Talakaveri",
+        states: ["Karnataka", "Tamil Nadu"],
+        mouth: "Poompuhar",
+        tributaries: ["Harangi", "Hemavati", "Shimsha", "Arkavati", "Lakshmana", "Kabini", "Suvarnavati", "Bhavani", "Noyil", "Amaravati"]
+    }],
+    ["Periyar", {
+        source: "Sivagiri Hills",
+        states: ["Kerala"],
+        mouth: "Kochi",
+        tributaries: ["Muthirapuzha", "Mullayar", "Cheruthoni", "Perinjankutti", "Edamalayar"]
+    }],
+    ["Bharathapuzha", {
+        source: "Anamalai Hills",
+        states: ["Tamil Nadu", "Kerala"],
+        mouth: "Ponnani",
+        tributaries: ["Gayathripuzha", "Chitturpuzha", "Kalpathipuzha", "Thoothapuzha"]
+    }],
+    ["Pamba", {
+        source: "Pulachimalai Hills",
+        states: ["Kerala"],
+        mouth: "Alappuzha",
+        tributaries: ["Manimala", "Achankovil", "Azhuthayar", "Kakkiar"]
     }]
 ])
 
