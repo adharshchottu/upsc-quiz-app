@@ -5,12 +5,10 @@ export type AllowedStates = "Kerala" | "Karnataka" | "Tamil Nadu" | "Goa" |
     "Chattisgarh" | "Odisha" | "Jharkhand" | "West Bengal" | "Rajasthan" |
     "Punjab" | "Himachal Pradesh" | "Uttarkhand" | "Uttar Pradesh" |
     "Haryana" | "Bihar" | "Sikkim" | "Arunachal Pradesh" | "Nagaland" |
-    "Manipur" | "Mizoram" | "Tripura" | "Assam" | "Meghalaya"
+    "Manipur" | "Mizoram" | "Tripura" | "Assam" | "Meghalaya" | "Dadra and Nagar Haveli and Daman & Diu" | "Jammu & Kashmir" |
+    "Ladakh" | "Puducherry" | "Lakshadweep" | "Andaman and Nicobar" | "NCR" | "Chandigarh"
 
 export type AllowedSeas = "Arabian Sea" | "Bay of Bengal" | "Indian Ocean"
-
-export type AllowedUts = "Dadra and Nagar Haveli and Daman & Diu" | "Jammu & Kashmir" |
-    "Ladakh" | "Puducherry" | "Lakshadweep" | "Andaman and Nicobar" | "NCR" | "Chandigarh"
 
 export type AllowedCountries = "Pakistan" | "China" | "Nepal" | "Bhutan" | "Bangladesh" | "Myanmar" | "Afghanistan"
 
@@ -309,6 +307,49 @@ const rivers: Map<string, River> = new Map([
         states: ["Kerala"],
         mouth: "Alappuzha",
         tributaries: ["Manimala", "Achankovil", "Azhuthayar", "Kakkiar"]
+    }],
+    ["Indus", {
+        source: "Lake Manasarovar(Tibet)",
+        mouth: "Indus Delta(Karachi)",
+        countries: ["China", "Pakistan"],
+        states: ["Jammu & Kashmir"],
+        tributaries: ["Shyok", "Gilgit", "Hunza", "Swat", "Kurram", "Gomal", "Kabul", "Zaskar", "Suru", "Soan", "Jhelum", "Chenab", "Ravi", "Beas", "Sutlej", "Panjnad"]
+    }],
+    ["Jhelum", {
+        source: "Verinag",
+        states: ["Jammu & Kashmir"],
+        mainstem: "Indus",
+        confluence: "Trimmu",
+        countries: ["Pakistan"]
+    }],
+    ["Chenab", {
+        source: "Tandi",
+        states: ["Himachal Pradesh", "Jammu & Kashmir"],
+        countries: ["Pakistan"],
+        confluence: "Mithankot",
+        mainstem: "Indus",
+        tributaries: ["Bhaga", "Chandra"]
+    }],
+    ["Ravi", {
+        source: "Bara Banghal",
+        states: ["Himachal Pradesh", "Punjab"],
+        countries: ["Pakistan"],
+        confluence: "Ahmadpur Sial",
+        mainstem: "Indus",
+    }],
+    ["Beas", {
+        source: "Solang valley",
+        states: ["Himachal Pradesh", "Punjab"],
+        countries: ["Pakistan"],
+        confluence: "Kapurthala",
+        mainstem: "Indus"
+    }],
+    ["Sutlej", {
+        source: "Lake Rakshastal",
+        states: ["Himachal Pradesh", "Punjab"],
+        countries: ["China", "Pakistan"],
+        confluence: "Mithankot",
+        mainstem: "Indus"
     }]
 ])
 
