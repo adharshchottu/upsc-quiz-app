@@ -28,7 +28,7 @@ function App() {
           <Route path="/history" element={<History />} />
           <Route path="/geography" element={<Geography />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/questions" element={<ProtectedRoute component={Questions} />} />
+          <Route path="/questions" element={<Questions />} />
           <Route path="/question" element={<ProtectedRoute component={Question} />} />
         </Routes>
       </Box>

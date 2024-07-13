@@ -36,7 +36,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           photoUrl: user.reloadUserInfo.photoUrl,
           uid: user.uid
         }
-        console.log(user)
         setAuthenticated(true);
         setUser(customUserInfo);
         setLoading(false);

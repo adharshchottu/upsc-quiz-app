@@ -10,10 +10,9 @@ interface ProtectedRouteProps {
 const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
   component: Component,
 }) => {
-  const { authenticated, loading, user } = useContext(AuthContext);
+  const { authenticated, loading } = useContext(AuthContext);
 
   if (loading) {
-    // Render null or a loading spinner while the authentication state is being determined
     return <>
       <Flex justifyContent={"center"} alignItems={"center"} h={'lg'} direction={"column"}>
         <Spinner
