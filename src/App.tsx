@@ -9,6 +9,10 @@ import { Box } from '@chakra-ui/react'
 import Articles from './pages/Articles'
 import History from './pages/History'
 import Geography from './pages/Geography'
+import Login from './components/Login'
+import ProtectedRoute from './components/ProtectedRoutes'
+import Questions from './pages/Questions'
+import Question from './pages/Question'
 
 function App() {
 
@@ -23,6 +27,9 @@ function App() {
           <Route path="/articles" element={<Articles />} />
           <Route path="/history" element={<History />} />
           <Route path="/geography" element={<Geography />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/questions" element={<ProtectedRoute component={Questions} />} />
+          <Route path="/question" element={<ProtectedRoute component={Question} />} />
         </Routes>
       </Box>
       <Footer />
