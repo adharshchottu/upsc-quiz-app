@@ -16,14 +16,14 @@ const Home: React.FC = () => {
             <Button colorScheme='red'>Articles</Button>
           </WrapItem>
         </Link>
-        {/* <Link to={"/history"}>
-          <WrapItem>
-            <Button colorScheme='orange'>History</Button>
-          </WrapItem>
-        </Link> */}
         <Link to={"/geography"}>
           <WrapItem>
             <Button colorScheme='yellow'>Geogrpahy</Button>
+          </WrapItem>
+        </Link>
+        <Link to={"/questions"}>
+          <WrapItem>
+            <Button colorScheme='orange'>Questions</Button>
           </WrapItem>
         </Link>
         {/*  <Link to={"/environment"}>
