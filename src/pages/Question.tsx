@@ -1,8 +1,8 @@
-import { Box, Button, Flex, FormControl, FormHelperText, FormLabel, Heading, Input, Radio, RadioGroup, Stack, Textarea, useToast } from "@chakra-ui/react"
-import { useContext, useState } from "react";
+import { Box, Button, Flex, FormControl, FormHelperText, FormLabel, Heading, HStack, Input, Radio, RadioGroup, Stack, Textarea, useToast } from "@chakra-ui/react"
+import { useContext, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../auth/AuthContext";
-import { addDoc, collection, doc, updateDoc } from "firebase/firestore";
+import { addDoc, collection, doc, getDoc, updateDoc } from "firebase/firestore";
 import { db } from "../firebase/firebase-app";
 
 export interface optionsInterface {
@@ -23,6 +23,7 @@ const Question = () => {
     const submitButton = !questionId ? "Create" : "Update"
 
     const [question, setQuestion] = useState("")
+    const [questionDirection, setQuestionDirection] = useState("")
     const [explanation, setExplanation] = useState("")
     const [answerIndex, setAnswerIndex] = useState("")
     const [options, setOptions] = useState<optionsInterface>({ optionOne: "", optionTwo: "", optionThree: "", optionFour: "" })
@@ -32,6 +33,12 @@ const Question = () => {
         let inputValue = e.target.value
         setQuestion(inputValue)
     }
+
+    let handleQuestionDirectionChange = (e: any) => {
+        let inputValue = e.target.value
+        setQuestionDirection(inputValue)
+    }
+
     let handleExplanationChange = (e: any) => {
         let inputValue = e.target.value
         setExplanation(inputValue)
@@ -100,13 +107,13 @@ const Question = () => {
         }
         const questionObject = {
             question,
+            questionDirection,
             explanation,
             answer: answerIndex,
             options,
             questionOptions,
             user
         }
-        console.log(questionObject);
 
         const UpdateDatabase = async () => {
             try {
@@ -147,35 +154,83 @@ const Question = () => {
         UpdateDatabase();
     }
 
+    const FetchQuestion = async () => {
+        try {
+            if (questionId) {
+                const dbData = await getDoc(doc(db, "questions", questionId));
+                const data = dbData.data();
+                if (data) {
+                    setQuestion(data.question)
+                    setQuestionDirection(data.questionDirection)
+                    setExplanation(data.explanation)
+                    setOptions(data.options)
+                    setAnswerIndex(data.answer)
+                    setQuestionOptions(data.questionOptions)
+                } else {
+                    toast({
+                        title: 'Error fetching question',
+                        description: "Try again later.",
+                        status: 'error',
+                        duration: 3000,
+                        isClosable: true,
+                    })
+                    navigate('/questions');
+                }
+            }
+        }
+        catch (e) {
+            toast({
+                title: 'Error fetching question',
+                description: "Try again later.",
+                status: 'error',
+                duration: 3000,
+                isClosable: true,
+            })
+            navigate('/questions');
+        }
+    }
+
+    useEffect(() => {
+        FetchQuestion();
+    }, [questionId])
+
 
     return <>
-        <Heading textAlign={"center"} color={"teal"}>{title} question</Heading>
+        <Heading textAlign={"center"} color={"teal"} bg={["red", "green", "blue", "yellow", "rosybrown"]}>{title} question</Heading>
 
-        <Box mx={56}>
+        <Box mx={[6, 16, 28, 36, 56]} my={[4, 6, 10, 16]}>
             <FormControl p={3}>
                 <FormLabel>Question</FormLabel>
                 <Textarea value={question} onChange={handleQuestionChange} />
             </FormControl>
 
 
-            <Box textAlign={"end"}>
+            <Box textAlign={"end"} my={6}>
                 <Button colorScheme="pink" onClick={addItem}>Add Question Option</Button>
             </Box>
             <ol>
                 {questionOptions.map((item, index) => {
                     return <li key={index}>
-                        <Input
-                            value={item}
-                            onChange={(e) => updateItemName(index, e.target.value)}
-                            placeholder="Enter option name"
-                        />
-                        <Button colorScheme="red" onClick={() => deleteItem(index)}>Delete</Button>
+                        <HStack m={2}>
+                            <Input
+                                value={item}
+                                onChange={(e) => updateItemName(index, e.target.value)}
+                                placeholder="Enter option name"
+                            />
+                            <Button colorScheme="red" onClick={() => deleteItem(index)}>Delete</Button>
+                        </HStack>
                     </li>
                 }
                 )}
             </ol>
 
             <FormControl p={3}>
+                <FormLabel>Question Direction</FormLabel>
+                <Textarea value={questionDirection} onChange={handleQuestionDirectionChange} />
+            </FormControl>
+
+            <FormControl p={3}>
+                <FormLabel>Options</FormLabel>
                 <RadioGroup colorScheme="green" value={answerIndex} onChange={setAnswerIndex}>
                     <Stack direction='column' gap={4}>
                         <Flex p={2} borderColor={answerIndex == "0" ? "green.400" : "none"} gap={4}>
