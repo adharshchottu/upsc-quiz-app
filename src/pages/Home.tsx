@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Center, Heading, Stack, Wrap, WrapItem } from "@chakra-ui/react";
+import { Box, Button, Center, Flex, Heading, Stack, Wrap, WrapItem } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
@@ -23,7 +23,7 @@ const Home: React.FC = () => {
         </Link>
         <Link to={"/questions"}>
           <WrapItem>
-            <Button colorScheme='orange'>Questions</Button>
+            <Button colorScheme='orange'>Practice Questions</Button>
           </WrapItem>
         </Link>
         {/*  <Link to={"/environment"}>
@@ -65,7 +65,13 @@ const Home: React.FC = () => {
           <Button colorScheme='telegram'>Telegram</Button>
         </WrapItem> */}
       </Wrap>
-    </Stack></Box >;
+    </Stack>
+    <Flex mt={32} justifyContent={"center"}>
+      <Link to={"/questions"}>
+        <Button colorScheme='facebook'>Add Questions to question bank</Button>
+      </Link>
+    </Flex>
+  </Box >;
 };
 
 export default Home;

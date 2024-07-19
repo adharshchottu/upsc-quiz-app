@@ -1,9 +1,13 @@
-import { Box, Button, Flex, FormControl, FormHelperText, FormLabel, Heading, HStack, Input, Radio, RadioGroup, Stack, Textarea, useToast } from "@chakra-ui/react"
+import {
+    Box, Button, Flex, FormControl, FormHelperText, FormLabel, Heading,
+    HStack, Input, Radio, RadioGroup, Stack, Textarea, useToast
+} from "@chakra-ui/react"
 import { useContext, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../auth/AuthContext";
-import { addDoc, collection, doc, getDoc, updateDoc } from "firebase/firestore";
+import { addDoc, collection, doc, getDoc, updateDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../firebase/firebase-app";
+import { Preview, questionInterface } from "./Questions";
 
 export interface optionsInterface {
     optionOne: string;
@@ -28,6 +32,7 @@ const Question = () => {
     const [answerIndex, setAnswerIndex] = useState("")
     const [options, setOptions] = useState<optionsInterface>({ optionOne: "", optionTwo: "", optionThree: "", optionFour: "" })
     const [questionOptions, setQuestionOptions] = useState<string[]>([])
+    const [selectedQuestion, setSelectedQuestion] = useState<questionInterface>()
 
     let handleQuestionChange = (e: any) => {
         let inputValue = e.target.value
@@ -112,7 +117,8 @@ const Question = () => {
             answer: answerIndex,
             options,
             questionOptions,
-            user
+            user,
+            lastUpdated: serverTimestamp()
         }
 
         const UpdateDatabase = async () => {
@@ -141,6 +147,8 @@ const Question = () => {
                     return
                 }
             } catch (error) {
+                console.log(error);
+
                 toast({
                     title: 'Error adding question',
                     description: "Question update failed.",
@@ -190,13 +198,29 @@ const Question = () => {
         }
     }
 
+    const previewQuestion = () => {
+        if (user) {
+            const questionObject = {
+                id: "",
+                question,
+                questionDirection,
+                explanation,
+                answer: answerIndex,
+                options,
+                questionOptions,
+                user
+            }
+            setSelectedQuestion(questionObject)
+        }
+    }
+
     useEffect(() => {
         FetchQuestion();
     }, [questionId])
 
 
     return <>
-        <Heading textAlign={"center"} color={"teal"} bg={["red", "green", "blue", "yellow", "rosybrown"]}>{title} question</Heading>
+        <Heading textAlign={"center"} color={"teal"}>{title} question</Heading>
 
         <Box mx={[6, 16, 28, 36, 56]} my={[4, 6, 10, 16]}>
             <FormControl p={3}>
@@ -278,7 +302,10 @@ const Question = () => {
 
         <Box textAlign={"center"}>
             <Button onClick={UpdateQuestion} colorScheme="green">{submitButton}</Button>
+            <Button mx={2} onClick={previewQuestion}>Preview</Button>
         </Box>
+
+        <Preview selectedQuestion={selectedQuestion} setSelectedQuestion={setSelectedQuestion} />
     </>
 }
 
