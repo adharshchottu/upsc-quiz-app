@@ -1,8 +1,10 @@
 import {
     Box, Button, Flex, FormControl, FormHelperText, FormLabel, Heading,
-    HStack, Input, Radio, RadioGroup, Stack, Textarea, useToast
+    HStack, Input, Radio, RadioGroup, Stack, Textarea, useToast,
+    Wrap,
+    WrapItem
 } from "@chakra-ui/react"
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../auth/AuthContext";
 import { addDoc, collection, doc, getDoc, updateDoc, serverTimestamp } from "firebase/firestore";
@@ -34,14 +36,108 @@ const Question = () => {
     const [questionOptions, setQuestionOptions] = useState<string[]>([])
     const [selectedQuestion, setSelectedQuestion] = useState<questionInterface>()
 
-    let handleQuestionChange = (e: any) => {
-        let inputValue = e.target.value
-        setQuestion(inputValue)
-    }
+    /**
+     * questions suggestions
+    */
+    const [suggestion, setSuggestion] = useState('');
+    const textareaRef = useRef<HTMLTextAreaElement>(null);
+    const questionDictionary = ['consider the following statements regarding', 'which of the following statements', 'countries', 'initiative'];
 
-    let handleQuestionDirectionChange = (e: any) => {
-        let inputValue = e.target.value
-        setQuestionDirection(inputValue)
+    const handleQuestionChangeNew = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+        const value = e.target.value;
+        setQuestion(value);
+
+        const lastWord = value?.split(' ')?.pop()?.toLowerCase();
+        const matchingWord = lastWord && questionDictionary.find(word => word.startsWith(lastWord));
+
+        if (matchingWord && lastWord.length > 0) {
+            setSuggestion(matchingWord.slice(lastWord.length));
+        } else {
+            setSuggestion('');
+        }
+    };
+
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+        if (e.key === 'Tab' && suggestion) {
+            e.preventDefault();
+            setQuestion(prev => prev + suggestion);
+            setSuggestion('');
+        }
+    };
+
+    useEffect(() => {
+        if (textareaRef.current) {
+            textareaRef.current.setSelectionRange(question.length, question.length);
+        }
+    }, [question]);
+
+    /**
+     * question direction suggestions
+     */
+    const [questionDirectionSuggestion, setQuestionDirectionSuggestion] = useState('');
+    const questionDirectionRef = useRef<HTMLTextAreaElement>(null);
+    const questionDirectionDictionary = [
+        'how many of the above statements are correct?',
+        'which one of the following is correct in respect of the above statements?',
+        'which of the statements given above is/are correct?',
+    ];
+
+    const handleQuestionDirectionChangeNew = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+
+        const value = e.target.value;
+        setQuestionDirection(value);
+
+        const lastWord = value?.split(' ')?.pop()?.toLowerCase();
+        const matchingWord = lastWord && questionDirectionDictionary.find(word => word.startsWith(lastWord));
+
+        if (matchingWord && lastWord.length > 0) {
+            setQuestionDirectionSuggestion(matchingWord.slice(lastWord.length));
+        } else {
+            setQuestionDirectionSuggestion('');
+        }
+
+        const lowercaseValue = value.toLowerCase();
+        const matchingSentence = questionDirectionDictionary.find(sentence =>
+            sentence.toLowerCase().startsWith(lowercaseValue) && sentence.toLowerCase() !== lowercaseValue
+        );
+
+        if (matchingSentence) {
+            setQuestionDirectionSuggestion(matchingSentence.slice(value.length));
+        } else {
+            setQuestionDirectionSuggestion('');
+        }
+    };
+
+    const handleQuestionDirectionKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+        if (e.key === 'Tab' && questionDirectionSuggestion) {
+            e.preventDefault();
+            setQuestionDirection(prev => prev + questionDirectionSuggestion);
+            setQuestionDirectionSuggestion('');
+        }
+    };
+
+    useEffect(() => {
+        if (questionDirectionRef.current) {
+            questionDirectionRef.current.setSelectionRange(questionDirection.length, questionDirection.length);
+        }
+    }, [questionDirection]);
+
+    /**
+     * suggest options
+     */
+    const optionSuggestions: optionsInterface[] = [
+        { optionOne: 'Only One', optionTwo: 'Only Two', optionThree: 'All three', optionFour: 'None' },
+        { optionOne: '1 and 2 Only', optionTwo: '2 and 3 Only', optionThree: '1, 2 and 3', optionFour: '1 and 3 Only' },
+        { optionOne: '1 Only', optionTwo: '2 Only', optionThree: 'Both 1 and 2', optionFour: 'Neither 1 Nor 2' },
+        { optionOne: 'Both statement-1 and statement-2 are correct and statement-2 is the correct explanation of statement-1', 
+            optionTwo: 'Both statement-1 and statement-2 are correct and statement-2 is not the correct explanation of statement-1', 
+            optionThree: 'Statement-1 is correct but statement-2 is incorrect', 
+            optionFour: 'Statement-1 is incorrect but statement-2 is correct' },
+        { optionOne: '', optionTwo: '', optionThree: '', optionFour: '' },
+    ];
+
+    const handleOptionChange = (index: number) => {
+        setOptions(optionSuggestions[index])
     }
 
     let handleExplanationChange = (e: any) => {
@@ -223,11 +319,39 @@ const Question = () => {
         <Heading textAlign={"center"} color={"teal"}>{title} question</Heading>
 
         <Box mx={[6, 16, 28, 36, 56]} my={[4, 6, 10, 16]}>
-            <FormControl p={3}>
-                <FormLabel>Question</FormLabel>
-                <Textarea value={question} onChange={handleQuestionChange} />
-            </FormControl>
 
+            <FormControl p={3} position="relative">
+                <FormLabel>Question</FormLabel>
+                <Box position="relative">
+                    <Textarea
+                        ref={textareaRef}
+                        value={question}
+                        onChange={handleQuestionChangeNew}
+                        onKeyDown={handleKeyDown}
+                        pr={4}
+                        resize="vertical"
+                    />
+                    <Box
+                        position="absolute"
+                        top={0}
+                        left={0}
+                        right={0}
+                        bottom={0}
+                        pointerEvents="none"
+                        pl={4}
+                        pt={2}
+                        pr={4}
+                        overflowWrap="break-word"
+                        whiteSpace="pre-wrap"
+                        color="gray.400"
+                    >
+                        {question}
+                        <Box as="span" color="gray.300">
+                            {suggestion}
+                        </Box>
+                    </Box>
+                </Box>
+            </FormControl>
 
             <Box textAlign={"end"} my={6}>
                 <Button colorScheme="pink" onClick={addItem}>Add Question Option</Button>
@@ -248,10 +372,58 @@ const Question = () => {
                 )}
             </ol>
 
-            <FormControl p={3}>
+            <FormControl p={3} position="relative">
                 <FormLabel>Question Direction</FormLabel>
-                <Textarea value={questionDirection} onChange={handleQuestionDirectionChange} />
+                <Box position="relative">
+                    <Textarea
+                        ref={questionDirectionRef}
+                        value={questionDirection}
+                        onChange={handleQuestionDirectionChangeNew}
+                        onKeyDown={handleQuestionDirectionKeyDown}
+                        pr={4}
+                        resize="vertical"
+                    />
+                    <Box
+                        position="absolute"
+                        top={0}
+                        left={0}
+                        right={0}
+                        bottom={0}
+                        pointerEvents="none"
+                        pl={4}
+                        pt={2}
+                        pr={4}
+                        overflowWrap="break-word"
+                        whiteSpace="pre-wrap"
+                        color="gray.400"
+                    >
+                        {questionDirection}
+                        <Box as="span" color="gray.300">
+                            {questionDirectionSuggestion}
+                        </Box>
+                    </Box>
+                </Box>
             </FormControl>
+
+            <Stack direction='column'>
+                <Wrap spacing={4}>
+                    <WrapItem>
+                        <Button colorScheme='gray' onClick={() => handleOptionChange(0)}>Only One</Button>
+                    </WrapItem>
+                    <WrapItem>
+                        <Button colorScheme='gray' onClick={() => handleOptionChange(1)}>1 and 2 Only</Button>
+                    </WrapItem>
+                    <WrapItem>
+                        <Button colorScheme='gray' onClick={() => handleOptionChange(2)}>1 Only</Button>
+                    </WrapItem>
+                    <WrapItem>
+                        <Button colorScheme='gray' onClick={() => handleOptionChange(3)}>Statement 1</Button>
+                    </WrapItem>
+                    <WrapItem>
+                        <Button colorScheme='gray' variant='outline' onClick={() => handleOptionChange(4)}>Clear</Button>
+                    </WrapItem>
+                </Wrap>
+            </Stack>
 
             <FormControl p={3}>
                 <FormLabel>Options</FormLabel>
