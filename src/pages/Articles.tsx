@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, CardHeader, Center, Divider, Heading, Radio, RadioGroup, Spinner, Stack, StackDivider, Text } from "@chakra-ui/react";
 import { DataSet, Articles } from "../data/dataset";
+import { logEvent } from "firebase/analytics";
+import { analytics } from "../firebase/firebase-app";
 
 type handleChangeType = (event: React.ChangeEvent<HTMLInputElement>) => void;
 type HandleOptionChange = (option: string) => void;
@@ -137,7 +139,9 @@ const Articles: React.FC = () => {
 
     useEffect(() => {
         setQuizData(articlesDataGenerator(rawArticleData, rawArticleHighlightData))
-        console.log("use effected")
+        logEvent(analytics, 'page_view', {
+            page_title: "Articles quiz",
+          });
     }, [rawArticleData, rawArticleHighlightData])
 
     return <Box>

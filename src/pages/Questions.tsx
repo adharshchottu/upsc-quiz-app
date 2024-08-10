@@ -2,10 +2,11 @@ import { Box, Button, Card, CardBody, Flex, Heading, IconButton, Modal, ModalBod
 import { collection, getDocs, limit, orderBy, query } from "firebase/firestore";
 import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { db } from "../firebase/firebase-app";
+import { analytics, db } from "../firebase/firebase-app";
 import { AuthContext, customUserInfo } from "../auth/AuthContext";
 import { optionsInterface } from "./Question";
 import { DeleteIcon, EditIcon } from "@chakra-ui/icons";
+import { logEvent } from "firebase/analytics";
 
 export interface questionInterface {
     id: string;
@@ -174,6 +175,9 @@ const Questions: React.FC = () => {
 
     useEffect(() => {
         FetchQuestions();
+        logEvent(analytics, 'page_view', {
+            page_title: "Question Bank",
+          });
     }, [])
     return <>
         <Flex justifyContent={"space-evenly"}>

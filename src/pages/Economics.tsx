@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Box, Center, Heading, Spinner } from "@chakra-ui/react";
 import Quiz from "../components/Quiz";
 import { DataSet } from "../data/dataset";
+import { logEvent } from "firebase/analytics";
+import { analytics } from "../firebase/firebase-app";
 
 const Economics: React.FC = () => {
   const [data, setData] = useState<DataSet[] | null>(null);
@@ -12,6 +14,9 @@ const Economics: React.FC = () => {
         setData(d.default);
       })
       .catch((error) => console.error(error));
+      logEvent(analytics, 'page_view', {
+        page_title: "Economic quiz",
+      });
   }, []);
 
   return <Box>

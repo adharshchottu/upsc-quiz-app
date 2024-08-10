@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Box, Button, Center, Flex, Heading, Stack, Wrap, WrapItem } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { logEvent } from "firebase/analytics";
+import { analytics } from "../firebase/firebase-app";
 
 const Home: React.FC = () => {
+  useEffect(() => {
+    logEvent(analytics, 'page_view', {
+      page_title: "Home page",
+    });
+  })
   return <Box m={3} minHeight={"50vh"}><Center><Heading>Select a Quiz</Heading></Center>
     <Stack direction='column' m={5}>
       <Wrap spacing={4} m={5}>

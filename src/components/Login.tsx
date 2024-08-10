@@ -1,7 +1,9 @@
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { auth } from "../firebase/firebase-app";
+import { analytics, auth } from "../firebase/firebase-app";
 import { useNavigate } from "react-router-dom";
 import { Button, Center, Flex, Heading } from "@chakra-ui/react";
+import { useEffect } from "react";
+import { logEvent } from "firebase/analytics";
 
 const Login: React.FC = () => {
     const navigate = useNavigate();
@@ -14,6 +16,12 @@ const Login: React.FC = () => {
                 console.log(error)
             });
     }
+
+    useEffect(() => {
+        logEvent(analytics, 'page_view', {
+            page_title: "login",
+          });
+    },[])
 
     return <>
         <Flex direction={"column"} align={"center"} m={"20"} gap={6}>

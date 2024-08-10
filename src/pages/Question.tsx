@@ -8,8 +8,9 @@ import { useContext, useEffect, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../auth/AuthContext";
 import { addDoc, collection, doc, getDoc, updateDoc, serverTimestamp } from "firebase/firestore";
-import { db } from "../firebase/firebase-app";
+import { analytics, db } from "../firebase/firebase-app";
 import { Preview, questionInterface } from "./Questions";
+import { logEvent } from "firebase/analytics";
 
 export interface optionsInterface {
     optionOne: string;
@@ -312,6 +313,9 @@ const Question = () => {
 
     useEffect(() => {
         FetchQuestion();
+        logEvent(analytics, 'page_view', {
+            page_title: `${title} question`,
+        });
     }, [questionId])
 
 

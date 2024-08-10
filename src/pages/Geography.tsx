@@ -4,6 +4,8 @@ import { DataSet } from "../data/dataset";
 import Quiz from "../components/Quiz";
 import { AllowedCountries, AllowedStates, AllowedUts, StateObject } from "../data/states";
 import { River } from "../data/geography/rivers";
+import { logEvent } from "firebase/analytics";
+import { analytics } from "../firebase/firebase-app";
 
 const DistrictQuizGenerator = (districtsData?: Map<string, string[]> | null, utData?: Map<string, string[]> | null) => {
     if (districtsData && utData) {
@@ -278,6 +280,9 @@ const Geography: React.FC = () => {
         newQuizDataset && neighboursQuizSet && setDistrictsQuizData([...neighboursQuizSet, ...newQuizDataset])
         const riversQuizDataSet = RiverQuizGenerator(riversData)
         newQuizDataset && neighboursQuizSet && riversQuizDataSet && setDistrictsQuizData([...neighboursQuizSet, ...newQuizDataset, ...riversQuizDataSet])
+        logEvent(analytics, 'page_view', {
+            page_title: "Geography quiz",
+          });
     }, [districtsData, statesData])
     return <Box>
         <Center>
